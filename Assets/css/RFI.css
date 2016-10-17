@@ -1,0 +1,31 @@
+.container-formulario{
+    width: 80%;
+}
+
+.icono-header-Solicitud{
+    font-size: 40px;
+}
+
+.informacion-general{
+
+text-align: left;
+}
+
+
+.btnradio{
+    position: relative;
+    top:-5px;
+}
+.inversion{
+    position: relative;
+    top: -4px;
+}
+
+.frm-1-izq{
+    
+}
+
+
+.frm-1-der{
+    
+}

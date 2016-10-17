@@ -34,8 +34,6 @@ angularRoutingApp.config(function($routeProvider) {
 			templateUrl : 'App/Components/RFI/RFI.html',
 			controller 	: 'Controlador-RFI'
 		})
-    
-    
 		.otherwise({
 			redirectTo: '/'
 		});
