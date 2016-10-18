@@ -7,68 +7,9 @@
 
     <title>Inversión Hidalgo</title>
 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet"/>    
-    <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet"/>
-    <link href="assets/css/normalize.css" rel="stylesheet">
-    <link href="assets/css/estilos.css" rel="stylesheet">
-    <link href="assets/fonts/OleoScript-Regular.ttf" rel="stylesheet" />
-    <link href="assets/css/paraicono.css" rel="stylesheet">
-    <link href="assets/css/sweetalert.css" rel="stylesheet" />
-
-    <link href="assets/css/_MenuHamburguesaIndex.css" rel="stylesheet" />
-    <link rel="stylesheet" href="assets/css/RFI.css">
+    <link rel="stylesheet" href="assets/css/_main.css">
+    <link src="assets/fonts/OleoScript-Regular.ttf">
   </head>
-
-
-  <!-- QUITAR CSS INCRUSTADO EN INDEX, ESTO QUEDA EN "MAIN.CSS"-->
-  <style>
-    @font-face{
-      font-family:mediocurveada;
-      src:url(app/fonts/OleoScript-Regular.ttf);
-      }
-    *{
-      padding: 0;
-      margin: 0;
-      }
-    body{
-      overflow-x: hidden;
-      }
-      @media (max-width: 767px) {
-        .menu{
-          transition: 1s;
-          position: fixed;
-          height:  100vh;
-          width: 100vw;
-          background-color: white;
-          display: flex;
-          justify-content: space-around;
-          flex-direction: column;
-          align-items: center;
-          color: black;
-          z-index: 999;
-          top: -120vh;
-          border-radius: 19px;
-          border-width: 10px;
-          border-color: black;
-          border-style:ridge;
-          }
-        .nav-texto{
-          height: 20px;
-          }
-        .nav-texto>a{
-          transition: 1s;
-          position: relative;
-          color: black;
-          font-size: 18px;
-          }
-        }
-      @media (min-width: 767px) {
-        .noaparecer{
-          display: none;
-          }
-        }
-  </style>
-  <!-- QUITAR CSS INCRUSTADO EN INDEX, ESTO QUEDA EN "MAIN.CSS"-->
 
   <body ng-controller="ControladorPrincipal" >
     <div class="menu noaparecer" >
@@ -208,7 +149,6 @@
     <script src="app/components/home/home.js"></script>
     <script src="app/components/RFI/RFI.js"></script>
     <script src="app/components/GenerarUsuario/GenerarUsuario.js"></script>
-    <script src="App/Components/GenerarUsuario/controller.js"></script>
     
   </body>
 </html>

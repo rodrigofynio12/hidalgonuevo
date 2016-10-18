@@ -1,3 +1,15 @@
+@import "bootstrap.css";
+@import "bootstrap.min.css";
+@import "bootstrap-theme.min.css";
+@import "normalize.css";
+@import "estilos.css";
+@import "paraicono.css";
+@import "sweetalert.css";
+@import "MenuHamburguesaIndex.css";
+@import "RFI.css";
+
+
+
     @font-face{
       font-family:mediocurveada;
       src:url(app/fonts/OleoScript-Regular.ttf);
@@ -43,15 +55,3 @@
           display: none;
           }
         }
-
-@import bootstrap.css;
-@import bootstrap.min.css;
-@import bootstrap-theme.min.css;
-@import normalize.css;
-@import estilos.css;
-@import paraicono.css;
-@import sweetalert.css;
-@import _MenuHamburguesaIndex.css;
-@import RFI.css;
-
-@import OleoScript-Regular.ttf;
