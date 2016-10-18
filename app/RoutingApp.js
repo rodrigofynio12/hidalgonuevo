@@ -7,31 +7,31 @@ angularRoutingApp.config(function($routeProvider) {
 
 	$routeProvider
 		.when('/', {
-			templateUrl	: 'App/Components/home/home.html',
+			templateUrl	: 'app/components/home/home.html',
 			controller 	: 'ControladorPrincipal'
 		})
 		.when('/porquehidalgo', {
-			templateUrl : 'App/Components/porquehidalgo/porquehidalgo.html',
+			templateUrl : 'app/components/porquehidalgo/porquehidalgo.html',
 			controller 	: 'Controlador-PorqueHidalgo'
 		})
 		.when('/SectoresEstrategicos', {
-			templateUrl : 'App/Components/SectoresEstrategicos/SectoresEstrategicos.html',
+			templateUrl : 'app/components/SectoresEstrategicos/SectoresEstrategicos.html',
 			controller 	: 'Controlador-SectoresEstrategicos'
 		})
     	.when('/InfraestructuraIndustrial', {
-			templateUrl : 'App/Components/infraestructuraIndustrial/InfraestructuraIndustrial.html',
+			templateUrl : 'app/components/infraestructuraIndustrial/InfraestructuraIndustrial.html',
 			controller 	: 'Controlador-InfraestructuraIndustrial'
 		})
     	.when('/AgenciaPromocion', {
-			templateUrl : 'App/Components/AgenciaPromocion/AgenciaPromocion.html',
+			templateUrl : 'app/components/AgenciaPromocion/AgenciaPromocion.html',
 			controller 	: 'Controlador-AgenciaPromocion'
 		})
         .when('/VentanillaUnica', {
-			templateUrl : 'App/Components/VentanillaUnica/VentanillaUnica.html',
+			templateUrl : 'app/components/VentanillaUnica/VentanillaUnica.html',
 			controller 	: 'Controlador-VentanillaUnica'
 		})
         .when('/RFI', {
-			templateUrl : 'App/Components/RFI/RFI.html',
+			templateUrl : 'app/components/RFI/RFI.html',
 			controller 	: 'Controlador-RFI'
 		})
 		.otherwise({
