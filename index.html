@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  ng-app='angularRoutingApp'  >
+<head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>TITULO</title>
+
+
+<link href="Assets/css/bootstrap.min.css" rel="stylesheet"/>    
+<link href="Assets/css/bootstrap-theme.min.css" rel="stylesheet"/>
+<link href="Assets/css/normalize.css" rel="stylesheet">
+<link href="Assets/css/estilos.css" rel="stylesheet">
+<link href="Assets/fonts/OleoScript-Regular.ttf" rel="stylesheet" />
+<link href="Assets/css/paraicono.css" rel="stylesheet">
+<link href="Assets/css/sweetalert.css" rel="stylesheet" />
+
+<link href="Assets/css/_MenuHamburguesaIndex.css" rel="stylesheet" />
+<link rel="stylesheet" href="Assets/css/RFI.css">
+
+</head>
+<style>
+
+@font-face{
+font-family:mediocurveada;
+src:url(App/fonts/OleoScript-Regular.ttf);
+}
+   
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    
+    body{
+        overflow-x: hidden;
+    }
+    @media (max-width: 767px) {
+ 
+       
+    .menu{  
+        transition: 1s;
+        position: fixed;
+         height:  100vh;
+        width: 100vw;
+background-color: white;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        z-index: 999;
+        top: -120vh;
+        border-radius: 19px;
+        border-width: 10px;
+        border-color: black;
+        border-style:ridge;
+        
+    }
+    
+    .nav-texto{
+        height: 20px;
+        
+    }
+    
+    .nav-texto>a{
+        transition: 1s;
+        position: relative;
+        color: black;
+       font-size: 18px;
+    }
+        
+}
+    
+    
+    
+    @media (min-width: 767px) {
+ 
+        .noaparecer{
+            display: none;
+        }
+    }
+ 
+    
+</style>
+
+<body ng-controller="ControladorPrincipal" >
+
+
+
+<div class="menu noaparecer" >
+    
+           
+            <div class=" nav-texto " ><a href="#home">INICIO</a></div>    
+            
+          <div class=" nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>  
+            
+          <div class=" nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>  
+            
+          <div class=" nav-texto">
+              <a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a> 
+          </div>  
+            
+          <div class=" nav-texto">
+              <a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a>
+          </div>  
+            
+               <div class=" nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a>
+          </div> 
+          
+
+</div>
+
+
+
+<br/>
+
+<br/>
+
+
+  <div class="ContenedorMenuHamburguesa visible-xs">
+     <div class="hamburguesa"></div>  
+  </div>
+  
+  
+
+<div class="container">
+    
+    <div class="row">
+        
+        <div class="col-xs-12 col-sm-4">
+            
+            <div class="imagen-header">
+                <img src="Assets/images/investin.svg" class="imagen-invest" alt="">
+            </div>
+        </div>
+        
+        
+        <div class="col-xs-12 col-sm-2">
+        </div>
+        
+        <div class="col-xs-12 col-sm-6 header-derecho" >
+        
+        <div class="col-xs-8 ">
+          <input type="text" class="inputbuscar">  
+        </div>
+        
+            <div class="col-xs-2">
+                <div class="icon icon-search iconobuscar"></div>
+                
+                <div class="iconobuscar-text">buscar</div>
+            </div>
+            
+            
+             <div class="col-xs-1">
+            </div>
+             <div class="col-xs-1">
+                <img class="iconousuario" src="Assets/images/contacto-logo.svg">
+                
+                <div class="iconousuario-text">
+                contacto</div>
+            </div>
+            
+        </div>
+    </div>
+    
+</div>
+
+
+
+<br/>
+<br/><br/><br/>
+<div class="linea hidden-xs"></div>
+    <nav class="container container-nav hidden-xs">
+        <div class="row header-nav">
+          
+           
+          <div class="col-xs-2 nav-texto " ><a href="#home">INICIO</a></div>    
+            
+          <div class="col-xs-2 nav-texto"><a href="#porquehidalgo" >¿POR QUÉ HIDALGO?</a></div>  
+            
+          <div class="col-xs-2 nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>  
+            
+          <div class="col-xs-2 nav-texto">
+              <a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a> 
+          </div>  
+            
+          <div class="col-xs-2 nav-texto">
+              <a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a>
+          </div>  
+            
+               <div class="col-xs-2 nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a>
+          </div>  
+             
+            
+        </div>
+        
+    </nav>
+<br>
+<div class="linea hidden-xs"></div>
+   
+   
+	<!-- Aquí inyectamos las vistas -->
+		<div ng-view></div>
+  
+<div class="container container-footer">
+      <div class="row">
+          
+        <div class="col-xs-4 footer">
+            
+          <div class="casosdeexito">
+          <span class="icono-footer">
+              <img src="Assets/images/logosol.svg">
+          </span>
+          
+          <p>Casos de exito</p>
+          
+          </div>
+          
+          
+        </div>
+        
+        <div class="col-xs-4 footer">
+            
+             <div class="suscripcionaboletines">
+          <span class="icono-footer">
+              
+              <img src="Assets/images/logohojas.svg">
+          </span>
+          <p>Suscripción a boletines</p>
+          
+          </div>
+          
+          
+        </div>
+          
+        <div class="col-xs-4 footer">
+            
+             <div class="preguntasfrecuentes">
+          <span class="icono-footer">
+              
+              <img src="Assets/images/logopregunta.svg">
+          </span>
+          
+          <p>Preguntas frecuentes</p>
+          </div>
+            
+            
+        </div>
+      </div>
+      
+  </div>
+  
+  
+  
+  <div class="container container-footer2">
+     <div class="row">
+         
+         <div class="col-xs-12 col-sm-4 footer2-izquierdo">
+             
+             <div class="col-xs-1"></div>
+             
+             
+             <div class="col-xs-2 icono-footer2 ">
+                 
+                 <img src="Assets/images/logofooter2-uno.svg">
+             </div>
+              <div class="col-xs-2 icono-footer2 ">
+                 
+                 <img src="Assets/images/logofooter2-dos.svg">
+             </div>
+              <div class="col-xs-2 icono-footer2 ">
+                 
+                 <img src="Assets/images/logofooter2-tres.svg">
+             </div>
+              <div class="col-xs-2 icono-footer2 ">
+                 
+                 <img src="Assets/images/logofooter2-cuatro.svg">
+             </div>
+              <div class="col-xs-2 icono-footer2 ">
+                 
+                 <img src="Assets/images/logofooter2-cinco.svg">
+             </div>
+             <div class="col-xs-1"></div>
+         </div>
+         <div class="col-xs-12 col-sm-4 footer2-centro-direccion">
+             
+              <br/>
+            <div class="linea-vertical hidden-xs"></div>
+             <div>
+                Secretaria de Desarrollo Economico
+             </div>
+              <br/>
+               <div>
+                Carr. Mexíco-Pachuca KM. 93.5, Centro Minero,
+             </div>
+             <div>
+               Col. Venta Prieta, Pachuca de Soto, Hidalgo; C.P. 42080
+             </div>
+               <div>
+              Tel: +52(771)717.81.09
+             </div>
+             
+         
+         </div>
+         
+        
+         <div class="col-xs-12 col-sm-4 footer2-derecho ">
+               <div class="linea-vertical-der hidden-xs"></div>
+             
+            <div class="footer2-logo-googlemaps">
+                 <a href="https://goo.gl/maps/KyQbsZyYxY12" target="_blank"><img  class="footer2-logo-googlemaps-img" src="Assets/images/logogoogle.svg"></a>
+                 
+                 
+            </div>
+            
+         </div>
+     </div>
+      
+      
+  </div>
+   
+<script src="Assets/js/jquery-2.1.4.js" type="text/javascript"></script>
+<script src="Assets/js/angular.min.js"></script>
+<script src="Assets/js/angular-route.js"></script>
+<script src="Assets/js/bootstrap.js" type="text/javascript"></script>  
+<script src="Assets/js/sweetalert-dev.js"></script>
+
+<script src="App/RoutingApp.js"></script>
+    
+    <script src="App/Components/porquehidalgo/_porquehidalgo.js"></script>
+    
+    <script src="App/Components/VentanillaUnica/VentanillaUnica.js"></script>
+    
+    <script src="App/Components/SectoresEstrategicos/SectoresEstrategicos.js"></script>
+    <script src="App/Components/AgenciaPromocion/AgenciaPromocion.js"></script>
+    <script src="App/Components/infraestructuraIndustrial/InfraestructuraIndustrial.js">
+    </script>
+     <script src="App/Components/home/home.js">
+    </script>
+    
+    
+     <script src="App/Components/RFI/RFI.js">
+    </script>
+    <script src="Assets/js/_MenuHamburguesaJS.js"></script>
+</body>
+</html>
