@@ -34,6 +34,11 @@ angularRoutingApp.config(function($routeProvider) {
 			templateUrl : 'app/components/RFI/RFI.html',
 			controller 	: 'Controlador-RFI'
 		})
+       .when('/GenerarUsuario', {
+			templateUrl : 'app/components/GenerarUsuario/GenerarUsuario.html',
+			controller 	: 'Controlador-GenerarUsuario'
+		})
+    
 		.otherwise({
 			redirectTo: '/'
 		});
