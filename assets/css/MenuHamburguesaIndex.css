@@ -26,13 +26,12 @@
     .ContenedorMenuHamburguesa:hover{
         
         transition: 1s;
-        background-color:  rgba(20,65,254,1);
+        background-color:  rgba(150,0,0,1);
 }
     .hamburguesa{
         top:90px;
         height: 8%;
         background-color: white;
-        100%;
         width: 56%;
         left:22%;
     }
@@ -40,10 +39,8 @@
     .hamburguesa:after,
     .hamburguesa:before,
     .hamburguesa{
-        
         transition: 1s;
         position: absolute;
-        
         content: '';
         background-color: white;
     }

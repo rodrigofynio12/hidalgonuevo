@@ -43,8 +43,9 @@
         .nav-texto{
           height: 20px;
           }
-        .nav-texto>a{
+        .nav-texto > .btn-link a {
           transition: 1s;
+          
           position: relative;
           color: black;
           font-size: 18px;
