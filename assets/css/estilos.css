@@ -33,9 +33,11 @@ h2{
         top: 30px;
     }
     .linea{
-        height: 2px;
-        width: 100%;
-        background-color: black;
+        
+        height: 1px;
+        width: 80%;
+        background-color: gray;
+        margin: auto;
     }
     
     .imagen-header{
