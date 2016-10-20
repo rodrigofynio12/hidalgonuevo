@@ -2,6 +2,11 @@
     // Creación del módulo
 var angularRoutingApp = angular.module('angularRoutingApp', ['ngRoute']);
 
+
+
+
+
+
 // Configuración de las rutas
 angularRoutingApp.config(function($routeProvider) {
 
@@ -42,6 +47,9 @@ angularRoutingApp.config(function($routeProvider) {
 		.otherwise({
 			redirectTo: '/'
 		});
+    
+    
+    
     
     
     
