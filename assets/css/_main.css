@@ -14,13 +14,18 @@
       font-family:mediocurveada;
       src:url(app/fonts/OleoScript-Regular.ttf);
       }
-    *{
-      padding: 0;
+    
+*{      padding: 0;
       margin: 0;
       }
+
+
     body{
       overflow-x: hidden;
       }
+
+
+
       @media (max-width: 767px) {
         .menu{
           transition: 1s;
