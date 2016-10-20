@@ -1,11 +1,5 @@
-(function () {
-
-    var navbar = {
-        templateUrl: 'app/components/navbar/navbar.html'
-    }
-
-    angular
-        .module('angularRoutingApp')
-        .component('navbarComponent',navbar);
-
-})();
+angularRoutingApp.directive('navbarComponent', function(){
+	return{
+		templateUrl: 'app/components/navbar/navbar.html'
+	};
+});
