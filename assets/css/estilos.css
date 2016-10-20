@@ -15,7 +15,7 @@
         cursor: pointer;
         cursor: hand;
         color: black;
-        font-size: 14px;
+        font-size: 12px;
         height: 50px;
         display: flex;
         top: 10px;
@@ -34,23 +34,40 @@ h2{
         position: relative;
         top: 30px;
     }
+
     .linea{
         
         height: 1px;
-        width: 80%;
+        width: 97%;
         background-color: gray;
         margin: auto;
-    }
-    
-    .imagen-header{
-        height: 120px;
+}
         
+        
+        
+.imagen-header-principal{
+    
         display: flex;
         flex-direction: row;
         align-content: center;
         justify-content: center;
-        width: 100%;
+}
+    .imagen-header{
+        position: absolute;
+        top:30px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        
+        width:100%;
+        height:100px;
+        left: 13%;
+        transform: scale(4);
+        
     }
+
+
     
     .imagen-invest{
         width: 100%;        
@@ -62,18 +79,26 @@ h2{
     .inputbuscar{
         position: relative;
         top:60px;
-        background-color: rgba(158,158,158 ,1);
-        height: 40px;
+        background-color: rgba(216,216,216 ,1);
+        height: 30px;
         width: 100%;
-    }
+}
+
+.contenedorbuscarlogo{
+    top: 40px;
+    transform: scale(.49);
+    overflow: hidden;
+left: -5%;
+}
+
+
     .iconobuscar{
         position: relative;
         width: 100%;
         height: 50px;
-        font-size: 25px;
+        font-size: 35px;
         text-align: center;
-        top:60px;
-        color: rgba(178,178,178,1);
+        color: rgba(0,45,64,1);
         
     }
 .iconobuscar-text
@@ -81,26 +106,35 @@ h2{
         
         position: relative;
         text-align: center;
-        top: 30px;
+        font-size: 20px;
+        top: 0px;
     }
     
+.contenedorbuscarusuario
+{
+    transform: scale(.7);
+    left: -6%;
+    top: 50px;
     
+}    
     
        .iconousuario{
         position: relative;
-        width: 40px;
-        height: 40px;
-        
+        width: 30px;
+        height: 30px;
+        left: -10px;
         text-align: center;
-        top:52px;
+        top:0px;
     }
+
+
 .iconousuario-text
     {
         
         position: relative;
         text-align: center;
-        top: 50px;
-        left: -4px;
+        top: 10px;
+        left: -20px;
     }
     
     

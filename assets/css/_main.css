@@ -25,6 +25,12 @@
       }
 
 
+.ContenedorMaster{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    overflow: hidden;
+}
 
       @media (max-width: 767px) {
         .menu{
@@ -44,7 +50,19 @@
           border-width: 10px;
           border-color: black;
           border-style:ridge;
+            
+            
+            
           }
+          
+          .ContenedorMaster{
+    
+    width: 100%;
+    left: 0%;
+}
+
+          
+          
         .nav-texto{
           height: 20px;
           }
