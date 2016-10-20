@@ -10,13 +10,55 @@
 
 
 
-    @font-face{
-      font-family:mediocurveada;
-      src:url(app/fonts/OleoScript-Regular.ttf);
+
+ @font-face{
+      font-family:ParaNav;
+      src:url(../fonts/Graphik/Graphik-Semibold.otf);
       }
+
+ @font-face{
+      font-family:Graphik-Regular;
+      src:url(../fonts/Graphik/Graphik-Regular.otf);
+      }
+ @font-face{
+      font-family:GraphikBold;
+      src:url(../fonts/Graphik/Graphik-Bold.otf);
+      }
+.acomodando{
+    position: relative;
+    left: 10%;
+}
+.subirAside{
+    position: relative;
+    top: -20px;
+}
+.TextoAside{
+    position: relative;
+    color: black;
+    font-size: 8.4pt;
+    top: -20px;
+}
+.TextoAsideVinculacion{
+    position: relative;
+    color: black;
+    font-size: 8.4pt;
+    top: -15px;
+}
+.ColorGris{
+    color: rgba(109,109,109,1);
+}
+ .prueba{
+        text-align: justify;
+    }
+
+.GraphikBold{
+    font-family: GraphikBold;
+    
+}
     
 *{      padding: 0;
       margin: 0;
+    
       }
 
 
@@ -51,7 +93,7 @@
           border-color: black;
           border-style:ridge;
             
-            
+          
             
           }
           
@@ -62,18 +104,18 @@
 }
 
           
+       
           
-        .nav-texto{
-          height: 20px;
-          }
+          
         .nav-texto > .btn-link a {
           transition: 1s;
           
           position: relative;
-          color: black;
           font-size: 18px;
           }
         }
+
+
       @media (min-width: 767px) {
         .noaparecer{
           display: none;
