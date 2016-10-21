@@ -1,6 +1,5 @@
 
-
-.nav-texto{
+    .nav-texto{
         font-size: 14px;
         height: 50px;
         display: flex;
@@ -10,7 +9,6 @@
         align-content: center;
         text-align: center;
     font-family: ParaNav;
-    
     }
 
     .nav-texto > .btn-link{
@@ -26,13 +24,15 @@
         text-align: center;
         color: rgba(109,109,109,1);
     }
-.btn-link:hover{
-    text-decoration: none;
-}
-h2{
-    font-family:mediocurveada;
-    font-size:36px;
-}
+
+    .btn-link:hover{
+        text-decoration: none;
+    }
+
+    h2{
+        font-family:mediocurveada;
+        font-size:36px;
+    }
     
     .header-derecho{
         position: relative;
@@ -45,19 +45,21 @@ h2{
         width: 100%;
         background-color: rgba(109,109,109,1);
         margin: auto;
-}
+    }
         
         
         
-.imagen-header-principal{
-    
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-}
+    .imagen-header-principal{
+
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+    }
+
+
     .imagen-header{
-        position: absolute;
+        position: relative;
         top:30px;
         display: flex;
         flex-direction: row;
@@ -72,28 +74,29 @@ h2{
     }
 
 
-    
     .imagen-invest{
         width: 100%;        
         height: 100%;
     }
+
     .container-nav{
         width: 100%;
     }
+
     .inputbuscar{
         position: relative;
         top:60px;
         background-color: rgba(216,216,216 ,1);
         height: 30px;
         width: 100%;
-}
+    }
 
-.contenedorbuscarlogo{
-    top: 40px;
-    transform: scale(.49);
-    overflow: hidden;
-left: -5%;
-}
+    .contenedorbuscarlogo{
+        top: 40px;
+        transform: scale(.49);
+    left: -5%;
+        
+    }
 
 
     .iconobuscar{
@@ -105,7 +108,9 @@ left: -5%;
         color: rgba(0,45,64,1);
         
     }
-.iconobuscar-text
+
+
+    .iconobuscar-text
     {
         
         position: relative;
@@ -115,25 +120,25 @@ left: -5%;
         font-family: ParaNav
     }
     
-.contenedorbuscarusuario
-{
-    transform: scale(.7);
-    left: -6%;
-    top: 50px;
+    .contenedorbuscarusuario
+    {
+        transform: scale(.7);
+        left: -6%;
+        top: 50px;
+
+    }    
     
-}    
-    
-       .iconousuario{
-        position: relative;
-        width: 30px;
-        height: 30px;
-        left: -10px;
-        text-align: center;
-        top:0px;
+   .iconousuario{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    left: -10px;
+    text-align: center;
+    top:0px;
     }
 
 
-.iconousuario-text
+    .iconousuario-text
     {
         
         position: relative;
@@ -185,13 +190,14 @@ left: -5%;
         top: 10px;
         color: rgba(57,180,54,1);
     }
+
     .icono-footer>img{
         position: relative;
         height: 30px;
         width: 30px;
-        top: -12px;
-        
+        top: -12px;  
     }
+
     .espacio{
         height: 500px;
     } 
@@ -204,7 +210,7 @@ left: -5%;
     }
     
     
-.icon-youtube
+    .icon-youtube
     {
         transform: rotate(180deg);
         color:rgba(0,45,64,1);
@@ -231,6 +237,7 @@ left: -5%;
         font-size: 11px;
         font-family: Graphik-Regular;
     } 
+
     .footer2-logo-googlemaps{
         position: relative;
         text-align: center;
@@ -273,139 +280,11 @@ left: -5%;
 
 
 
-  @media (max-width: 767px) {
-      
-           
-      
-        .iconobuscar{
-      left: -10px;
-            top: 0px;
-      
-      }
-       .iconobuscar-text{
-      left: -20px;
-            top: -30px;
-      }
-      
-  .iconousuario{
-      top: -10px;
-      left: 0px;
-      width: 30px;
-      }
-       .iconousuario-text{
-      left: -15px;
-      top:-20px;
-      }
-      
-         .inputbuscar{
-        top:0px;
-       
-    }
-      
-      .menu>div>a:hover{
-          background-color: black;
-          color: white;
-          
-      }
-      
-        }
-
-  
-    @media (max-width: 767px) 
-    {
-        .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
-            font-size: 19px;
-            left: 0px;
-            text-align: center;
-            display: block;
-        }
-        
-        .icono-footer>img{
-            width: 40px;
-            height: 40px;
-            left: 10px;
-        }
-        .footer2-izquierdo{
-            display: block;
-            height: 110px;
-        }
-        .footer2-centro-direccion
-        
-        {
-            display: block;   
-        }
-         
-        }
 
 
-
-
-@media (max-width: 400px) {
+      
     
-    .container-nav>div>div>a{
-        font-size: 8px;
-    }
- .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-        display: inline;
-        font-size: 18px;
-    }
-        
-        
-    }
 
-@media (max-width: 350px) {
-    
-    .container-nav>div>div>a{
-        font-size: 8px;
-    }
- .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-        display: inline;
-        font-size: 15px;
-    }
-        
-        
-    }
-
-@media (min-width: 768px) and (max-width: 991px) {
-    
-    .container-nav>div>div>a{
-        font-size: 12px;
-    }
- 
-        
-    }
-
-
-@media (max-width: 991px) {
-        .footer{
-        height: 100px;
-    }
-  
-    
-}
-        
-@media (min-width: 991px) {
-   
-    .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-        position: relative;
-        display: inline;
-        font-size: 15px;
-        top: -5px;
-    }
-       .container-nav>div>div>a{
-        font-size: 12px;
-    }
-         
-@media (min-width: 1101px) {
-   
-       .container-nav>div>div>a{
-        font-size: 12px;
-    }
-    
-        
-        
-    
-}
 
 
 

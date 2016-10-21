@@ -1,0 +1,20 @@
+
+ @font-face{
+      font-family:ParaNav;
+      src:url(../fonts/Graphik/Graphik-Semibold.otf);
+      }
+
+ @font-face{
+      font-family:Graphik-Regular;
+      src:url(../fonts/Graphik/Graphik-Regular.otf);
+      }
+ @font-face{
+      font-family:GraphikBold;
+      src:url(../fonts/Graphik/Graphik-Bold.otf);
+      }
+
+
+    .GraphikBold{
+        font-family: GraphikBold;
+
+    }

@@ -11,9 +11,11 @@
     <link src="assets/fonts/OleoScript-Regular.ttf">
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Semibold.otf">
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Regular.otf">
-    
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Bold.otf">
-    
+  
+  <link rel="stylesheet" href="Assets/css/slidenuevo.css">
+  
+  
   </head>
   
   <body ng-controller="ControladorPrincipal" >
@@ -62,6 +64,35 @@
     <script src="app/components/infraestructuraIndustrial/InfraestructuraIndustrial.js"></script>
     <script src="app/components/RFI/RFI.js"></script>
     <script src="app/components/GenerarUsuario/GenerarUsuario.js"></script>
+    <script src="Assets/js/jquery.slides.min.js"></script>
+    <script>
+        
+    $(document).on('ready',function()
+                  {
+        
+        var tam = $(document).width();
+        $('.texto-tamano').text(''+tam);
+        $('.texto-tamano').css('position','fixed');
+        
+    })  
+    </script>
   
+  
+    <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 328,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+      
+      
   </body>
 </html>

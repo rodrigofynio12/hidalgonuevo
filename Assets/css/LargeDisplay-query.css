@@ -1,0 +1,32 @@
+/* Large Display - query */
+
+
+    @media (min-width:1200px){
+    
+        
+        .container-nav>div>div>a{
+            font-size: 12px;
+        }
+        
+        
+        
+       .container-nav>div>div>a{
+        font-size: 12px
+        }
+   
+         .icono-footer>img{
+        position: relative;
+        height: 30px;
+        width: 30px;
+        top: -12px;  
+    }
+          .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 18px;
+        }
+        
+        
+        
+        
+        
+    }
