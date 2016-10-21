@@ -78,8 +78,8 @@
               
     .icono-footer>img{
         position: relative;
-        height: 20px;
-        width: 20px;
+        height: 30px;
+        width: 30px;
         top: -30px; 
 left: 20%;
     }
@@ -88,8 +88,8 @@ left: 20%;
        /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
             position: relative;
             display: block;
-            font-size: 12px;
-            top: -28px;
+            font-size: 16px;
+            top: -25px;
            left: 8%;
            
         }
