@@ -5,6 +5,7 @@
         body{
             background-color: pink;
         }
+        
         .container-nav>div>div>a{
             font-size: 8px;
         }
@@ -51,28 +52,65 @@
             top: 20px;
         }
         
+        .subir-vista{
+            position: relative;
+            top: -40px;
+        }
+        
         .contenedor-slide-nuevo{
                  position: relative;
                  top: -10vh;
         }
         
         
+              
+    .icono-footer>img{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: -30px; 
+left: 20%;
+    }
+       
+        
+       /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            position: relative;
+            display: block;
+            font-size: 12px;
+            top: -28px;
+           
+        }
+        
+        
+  
+        
+        
+        
     }
 
 
 
-/* Phones pequeños */
+/* Phones Little */
 
     @media (max-width: 350px) {
     
-        .container-nav>div>div>a{
-            font-size: 8px;
+     .icono-footer>img{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: -30px; 
+left: 20%;
+    }
+       
+        
+       /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            position: relative;
+            display: block;
+            font-size: 12px;
+            top: -28px;
+           
         }
-
-         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-            display: inline;
-            font-size: 15px;
-        }
+        
         
         
     }
