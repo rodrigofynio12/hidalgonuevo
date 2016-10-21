@@ -2,17 +2,96 @@
 
     @media (min-width: 768px) and (max-width: 956px) {
     
-        .container-nav>div>div>a{
-        font-size: 12px;
+        body{
+            background-color:darkorange;
+        }
+  
+ 
+          
+          .container-nav>div>div>a{
+            font-size: 8px;
         }
         
-    
-    
-        .footer{
-        height: 100px;
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 18px;
         }
-    
+        
+        
+        /* imagen investihidalgo */
+        .imagen-header{
+            transform: scale(5);
+            left: 0%;
+        }
+        
+        /* final imagen investihidalgo */
+        
+        /* Parte del input buscar y contacto */
+        .header-derecho{
+            position: relative;
+            top: 70px;
+        }
+        
+        
+        .contenedorbuscarlogo{
+        top: 10px;  
+            
+        }
+        
+        .contenedorbuscarusuario{
+            top: 48px;
+            left: -8%;
+        }
+        
+        .iconobuscar{
+            top:40px;
+        }
+        /* fin input*/
+        .footer2-centro-direccion{
+            position: relative;
+            top: 40px;
+        }
+        
       
+          .subir-vista{
+            position: relative;
+            top: 100px;
+        }
+        
+        
+        
+      
+        .contenedor-slide-nuevo{
+                 position: relative;
+                 top: -10vh;
+        }
+        
+        .footer2-logo-googlemaps{
+         top:20px;   
+        }
+              
+    .icono-footer>img{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: -30px; 
+left: 20%;
+    }
+       
+        
+       /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            position: relative;
+            display: block;
+            font-size: 12px;
+            top: -28px;
+           left: 8%;
+           
+        }
+        
+        
+  
+        
+          
         
         
     

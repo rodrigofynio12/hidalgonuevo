@@ -3,98 +3,99 @@
       @media (min-width: 401px) and (max-width: 767px) 
       {
           
-          
-          
-          
           body{
               background-color: dodgerblue;
           }
+ 
           
-          .header-derecho{
+          .container-nav>div>div>a{
+            font-size: 8px;
+        }
+        
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 18px;
+        }
+        
+        
+        /* imagen investihidalgo */
+        .imagen-header{
+            transform: scale(5);
+            left: 0%;
+        }
+        
+        /* final imagen investihidalgo */
+        
+        /* Parte del input buscar y contacto */
+        .header-derecho{
             position: relative;
             top: 70px;
         }
         
         
         .contenedorbuscarlogo{
-        top: -45px;  
+        top: 10px;  
+            
         }
         
         .contenedorbuscarusuario{
-            top: -8px;
+            top: 48px;
+            left: -8%;
         }
-        
-            .imagen-header{
-            transform: scale(5);
-            left: 0%;
-        }
-        
-          
-      
         
         .iconobuscar{
-            top:30px;
-            left:10%;
+            top:40px;
         }
+        /* fin input*/
+        .footer2-centro-direccion{
+            position: relative;
+            top: 40px;
+        }
+        
+        .subir-contenedor-input{
+            position: relative;
+            top: 5px;
+        }
+        .subir-contenedor-footer{
+            position: relative;
+            top: -90px;
+        }
+        
+        
+        .subir-vista{
+            position: relative;
+            top: -40px;
+        }
+        
+        .contenedor-slide-nuevo{
+                 position: relative;
+                 top: -10vh;
+        }
+        
+        .footer2-logo-googlemaps{
+         top:20px;   
+        }
+              
+    .icono-footer>img{
+        position: relative;
+        height: 20px;
+        width: 20px;
+        top: -30px; 
+left: 20%;
+    }
        
         
-        .iconobuscar-text {
-            left: 10%;
-            top: -15px;
-        }
-        
-        .iconousuario {
-            top: -5px;
-            left: -20%;
-            width: 30px;
-        }
-        
-        .iconousuario-text {
-            left: -15px;
-            top: 4px;
-        }
-        
-        .inputbuscar {
-            top: 0px;
-        }
-        
-        .menu>div>a:hover {
-            background-color: black;
-            color: white;
-        }
-      
-      /* casos de exito   Footer            */
-      .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
-            font-size: 19px;
-            left: 0px;
-            text-align: center;
+       /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            position: relative;
             display: block;
+            font-size: 12px;
+            top: -28px;
+           left: 8%;
+           
         }
         
-        .icono-footer>img{
-            width: 40px;
-            height: 40px;
-            left: 10px;
-        }
         
-        .footer2-izquierdo{
-            display: block;
-            height: 110px;
-        }
+  
         
-        .footer2-centro-direccion{
-            display: block;   
-        }
-      
-      
-         /*  Menu Hamburguesa */
-      
-  .ContenedorMenuHamburguesa{
-      display: none;
-        }
-            
-      
-         /*  Menu Hamburguesa */
-      
-      
-    }
+          
+}

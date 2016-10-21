@@ -46,11 +46,20 @@
             left:16px;
         }
         /* fin input*/
-        
-        
-        .subir-contenedor{
-            top: 20px;
+        .footer2-centro-direccion{
+            position: relative;
+            top: 40px;
         }
+        
+        .subir-contenedor-input{
+            position: relative;
+            top: 5px;
+        }
+        .subir-contenedor-footer{
+            position: relative;
+            top: -90px;
+        }
+        
         
         .subir-vista{
             position: relative;
@@ -62,7 +71,9 @@
                  top: -10vh;
         }
         
-        
+        .footer2-logo-googlemaps{
+         top:20px;   
+        }
               
     .icono-footer>img{
         position: relative;
