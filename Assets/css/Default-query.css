@@ -1,0 +1,22 @@
+/* Default - query */
+
+
+    @media (min-width: 960px) and (max-width: 1199px) {
+    
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            position: relative;
+            display: inline;
+            font-size: 12px;
+            top: -5px;
+        }
+        
+       .container-nav>div>div>a{
+            font-size: 12px;
+        }
+
+        
+        
+
+        
+    
+    }

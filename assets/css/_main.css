@@ -2,28 +2,21 @@
 @import "bootstrap.min.css";
 @import "bootstrap-theme.min.css";
 @import "normalize.css";
-@import "estilos.css";
 @import "paraicono.css";
 @import "sweetalert.css";
+@import "estilos.css";
+@import "slidenuevo.css";
 @import "MenuHamburguesaIndex.css";
 @import "RFI.css";
+@import "fuentes.css";
+@import "_paraprogressbar.css";
+@import "Phones-query.css";
+@import "PhoneyTablets-query.css";
+@import "PortraitTablet-query.css";
+@import "Default-query.css";
+@import "LargeDisplay-query.css";
 
 
-
-
- @font-face{
-      font-family:ParaNav;
-      src:url(../fonts/Graphik/Graphik-Semibold.otf);
-      }
-
- @font-face{
-      font-family:Graphik-Regular;
-      src:url(../fonts/Graphik/Graphik-Regular.otf);
-      }
- @font-face{
-      font-family:GraphikBold;
-      src:url(../fonts/Graphik/Graphik-Bold.otf);
-      }
 .acomodando{
     position: relative;
     left: 10%;
@@ -51,10 +44,7 @@
         text-align: justify;
     }
 
-.GraphikBold{
-    font-family: GraphikBold;
-    
-}
+
     
 *{      padding: 0;
       margin: 0;
@@ -97,7 +87,7 @@
             
           }
           
-          .ContenedorMaster{
+.ContenedorMaster{
     
     width: 100%;
     left: 0%;

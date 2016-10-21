@@ -1,0 +1,19 @@
+/* Portrait tablet - query */
+
+    @media (min-width: 768px) and (max-width: 956px) {
+    
+        .container-nav>div>div>a{
+        font-size: 12px;
+        }
+        
+    
+    
+        .footer{
+        height: 100px;
+        }
+    
+      
+        
+        
+    
+    }
