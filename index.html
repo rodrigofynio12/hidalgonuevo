@@ -18,6 +18,18 @@
 
   <body ng-controller="ControladorPrincipal" >
     <div class="ContenedorMaster">
+      <div class="ContenedorMenuHamburguesa visible-xs">
+        <div class="hamburguesa"></div>
+      </div>
+
+      <div class="menu noaparecer" >
+        <div class="nav-texto "><a href="#home">INICIO</a></div>
+        <div class="nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
+        <div class="nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
+        <div class="nav-texto"><a href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
+        <div class="nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
+        <div class="nav-texto"><a href="#VentanillaUnica">VENTANILLA UNICA</a></div>
+      </div>
 
       <navbar-component></navbar-component>
 
@@ -27,24 +39,25 @@
 
       <footer-component></footer-component>
     </div>
-        
-    <script src="assets/js/jquery-2.1.4.js" type="text/javascript"></script>
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-route.js"></script>
+    <script src="app/RoutingApp.js"></script>
+    <script src="app/components/navbar/navbar_component.js"></script>
+    <script src="app/components/home/home.js"></script>
+    <script src="app/components/footer/footer_component.js"></script>
+    
+
+    <script src="assets/js/jquery-2.1.4.js" type="text/javascript"></script>
     <script src="assets/js/bootstrap.js" type="text/javascript"></script>  
     <script src="assets/js/sweetalert-dev.js"></script>
     <script src="assets/js/MenuHamburguesaJS.js"></script>
 
-    <script src="app/RoutingApp.js"></script>
-
-    <script src="app/components/navbar/navbar_component.js"></script>
-    <script src="app/components/footer/footer_component.js"></script>
+    
     <script src="app/components/porquehidalgo/_porquehidalgo.js"></script>
     <script src="app/components/VentanillaUnica/VentanillaUnica.js"></script>
     <script src="app/components/SectoresEstrategicos/SectoresEstrategicos.js"></script>
     <script src="app/components/AgenciaPromocion/AgenciaPromocion.js"></script>
     <script src="app/components/infraestructuraIndustrial/InfraestructuraIndustrial.js"></script>
-    <script src="app/components/home/home.js"></script>
     <script src="app/components/RFI/RFI.js"></script>
     <script src="app/components/GenerarUsuario/GenerarUsuario.js"></script>
   
