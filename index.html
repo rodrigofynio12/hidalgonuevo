@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html ng-app='angularRoutingApp'>
   <head>
@@ -13,14 +11,19 @@
     <link src="assets/fonts/OleoScript-Regular.ttf">
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Semibold.otf">
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Regular.otf">
-    
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Bold.otf">
-    
+  
+  <link rel="stylesheet" href="Assets/css/slidenuevo.css">
+  
+  
   </head>
   
 
-  <body ng-controller="ControladorPrincipal" >    
-    
+  <body ng-controller="ControladorPrincipal" >  
+   
+           
+               
+    <div class="texto-tamano"></div>
 <div class="ContenedorMaster">
     <div class="ContenedorMenuHamburguesa visible-xs">
       <div class="hamburguesa"></div>
@@ -40,21 +43,32 @@
     <div class="container container-nav">
       <div class="row">
         <div class="col-xs-12 col-sm-5 imagen-header-principal">
-          <div class="imagen-header"><img src="assets/images/investin.svg" class="imagen-invest" alt=""></div>
+          <div class="imagen-header col-xs-12">
+          <img src="assets/images/investin.svg" class="imagen-invest" alt="">
+          </div>
         </div>
         <div class="col-xs-12 col-sm-1"></div>
         
-        <div class="col-xs-12 col-sm-6 header-derecho" >
+        <div class="col-xs-12 col-sm-6 header-derecho subir-contenedor" >
+         
           <div class="col-xs-8 "><input type="text" class="inputbuscar"></div>
+          
           <div class="col-xs-2 contenedorbuscarlogo">
             <div class="icon icon-search iconobuscar"></div>
+            <br class="">
+            <br>
             <div class="iconobuscar-text"><b>Buscar</b></div>
           </div>
+          
           <div class="col-xs-1"></div>
+          
           <div class="col-xs-1 contenedorbuscarusuario">
             <img class="iconousuario" src="assets/images/contacto-logo.svg">
-            <div class="iconousuario-text"><b>Contacto</b></div>
+            <div class="iconousuario-text">
+                <b>Contacto</b>
+            </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -124,7 +138,7 @@
         </div>
     </nav>
     <br>
-    <div class="linea hidden-xs porque2"></div>
+    <div class="linea hidden-xs "></div>
 
 
 
@@ -219,6 +233,35 @@
     <script src="app/components/home/home.js"></script>
     <script src="app/components/RFI/RFI.js"></script>
     <script src="app/components/GenerarUsuario/GenerarUsuario.js"></script>
+    <script src="Assets/js/jquery.slides.min.js"></script>
+    <script>
+        
+    $(document).on('ready',function()
+                  {
+        
+        var tam = $(document).width();
+        $('.texto-tamano').text(''+tam);
+        $('.texto-tamano').css('position','fixed');
+        
+    })  
+    </script>
   
+  
+    <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,
+        height: 328,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+      
+      
   </body>
 </html>

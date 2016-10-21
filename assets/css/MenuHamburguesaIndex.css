@@ -3,9 +3,9 @@
         position: fixed;
         width: 200px;
         height: 200px;
-        transform: scale(.20);
-        top:-50px;
-        left: -70px;
+        transform: scale(.15);
+        top:-60px;
+        left: -80px;
         /* Flex-box*/
         
         display: flex;
@@ -79,9 +79,3 @@
 
 
     
-    @media (max-width: 767px) {
-  .ContenedorMenuHamburguesa{
-      display: none;
-        }
-            
-        }

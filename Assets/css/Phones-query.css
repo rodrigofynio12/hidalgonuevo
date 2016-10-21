@@ -1,0 +1,80 @@
+
+    @media (max-width: 400px) 
+    
+    {
+        body{
+            background-color: pink;
+        }
+        .container-nav>div>div>a{
+            font-size: 8px;
+        }
+        
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 18px;
+        }
+        
+        
+        /* imagen investihidalgo */
+        .imagen-header{
+            transform: scale(5);
+            left: 0%;
+        }
+        
+        /* final imagen investihidalgo */
+        
+        /* Parte del input buscar y contacto */
+        .header-derecho{
+            position: relative;
+            top: 70px;
+        }
+        
+        
+        .contenedorbuscarlogo{
+        top: 10px;  
+            
+        }
+        
+        .contenedorbuscarusuario{
+            top: 48px;
+            left: 6px;
+        }
+        
+        .iconobuscar{
+            top:40px;
+            left:16px;
+        }
+        /* fin input*/
+        
+        
+        .subir-contenedor{
+            top: 20px;
+        }
+        
+        .contenedor-slide-nuevo{
+                 position: relative;
+                 top: -10vh;
+        }
+        
+        
+    }
+
+
+
+/* Phones pequeños */
+
+    @media (max-width: 350px) {
+    
+        .container-nav>div>div>a{
+            font-size: 8px;
+        }
+
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 15px;
+        }
+        
+        
+    }
+
+

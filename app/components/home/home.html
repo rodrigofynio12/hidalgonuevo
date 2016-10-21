@@ -1,38 +1,173 @@
 <br/>
 
-          
-   <div class="container container-nav container-acomodandocarrusel">
-     <div class="row">
-          <div id="myCarousel" class="carousel slide " data-ride="carousel">
-            <!-- Indicators -->
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
+       
+         <style>
+        
+      
+    #slides {
+      display: none
+    }
 
-            <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
 
-                      <div class="item active">
-                           <img src="assets/images/1.png" alt="Chania" width="100%" height="345">
-                      </div>
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(Assets/images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
 
-                      <div class="item">
-                            <img src="assets/images/2.png" alt="Flower" width="100%" height="345">
-                      </div>
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
 
-                      <div class="item">
-                            <img src="assets/images/3.png" alt="Flower" width="100%" height="345">
-                      </div>
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
 
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(Assets/images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+
+
+    #slides {
+      display: none
+    }
+
+    .container {
+      margin: 0 auto
+    }
+
+    /* For tablets & smart phones */
+    @media (max-width: 767px) {
+      body {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .container {
+        width: auto
+      }
+    }
+
+    /* For smartphones */
+    @media (max-width: 480px) {
+      .container-slide {
+       width: 100vw;
+      }
+    }
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container {
+        width: 100%;
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container {
+        width: 100%;
+      }
+    }
+      
+
+
+</style>
+         <div class="container container-nav contenedor-slide-nuevo ">
+           <div class="row">
+            <div class="container-slide">
+                <div id="slides">
+                      <img src="assets/images/example-slide-1.jpg" alt="a">
+                      <img src="assets/images/example-slide-2.jpg" alt="w">
+                      <img src="assets/images/example-slide-3.jpg" alt="">
+                      <img src="assets/images/example-slide-4.jpg" alt="">
                 </div>
-            </div>
-      </div>
-    </div> 
+          </div>
+         </div >
+         </div>
+      
     
     
-    <div class="container container-nav">
+    <div class="container container-nav contenedor-slide-nuevo subir-contenedor">
     <div class="row">
         <br>
         <br>
@@ -43,7 +178,7 @@
            
            <p class="prueba Graphik-Regular TextoAside">
               El estado de Hidalgo se caracteriza por ser un gobierno facilitador para nuevas empresas, al ubicarse en el noveno lugar nacional como el estado con la mayor rentabilidad para los negocios y en el cuarto con la mejor estrategia para atraer inversiones, de acuerdo al estudio Mexican States of the Future 2016/17 del Finantial Times.
-<br>
+             <br>
              <br>
               La publicación del Banco Mundial denominada Doing Business 2016, ubica a Hidalgo entre los primeros 10 estados en donde es más fácil registrar una propiedad, lo que tiene un impacto significativo en la administración de las tierras en el estado.
            </p>
@@ -55,16 +190,16 @@
          
          
          <div class="col-xs-12 col-sm-6">
-         <div class="col-sm-12">
-        <p class="h3 GraphikBold ColorGris">FORTALECIMIENTO</p> 
-           <p class="h3 GraphikBold subirAside"> ECONÓMICO</p>
-           
-           <p class="prueba Graphik-Regular TextoAside">
-               El ambiente de negocios se traduce en la confianza que han depositado inversionistas nacionales y extranjeros en las diferentes regiones del estado, ya que en los últimos años se han consolidado nuevos proyectos por más de 38 mil millones de pesos en grandes inversiones, generando más de 40 mil empleos en sectores como el metalmecánico, alimentos, logístico, papel, entre otros.
-           </p>
-           
-        </div>
-        
+             <div class="col-sm-12">
+                <p class="h3 GraphikBold ColorGris">FORTALECIMIENTO</p> 
+                <p class="h3 GraphikBold subirAside"> ECONÓMICO</p>
+
+               <p class="prueba Graphik-Regular TextoAside">
+                   El ambiente de negocios se traduce en la confianza que han depositado inversionistas nacionales y extranjeros en las diferentes regiones del estado, ya que en los últimos años se han consolidado nuevos proyectos por más de 38 mil millones de pesos en grandes inversiones, generando más de 40 mil empleos en sectores como el metalmecánico, alimentos, logístico, papel, entre otros.
+                </p>
+
+            </div>
+
         
          </div>
         </div>   
@@ -74,16 +209,16 @@
         <br>
         <br>
         <div class="col-xs-12 col-sm-6">
-         <div class="col-sm-12">
-        <p class="h3 GraphikBold ColorGris">NUEVAS</p> 
-           <p class="h3 GraphikBold subirAside">INVERSIONES</p>
-           
-           <p class="prueba Graphik-Regular TextoAside">
-            A través de servicios especializados se promueven las ventajas competitivas del estado de Hidalgo respecto a la ubicación geográfica y la mano de obra especializada, lo que posibilita la generación de cadenas de valor y el ofrecimiento de incentivos en materia de regulación que facilitan la instalación de empresas en menos tiempo y con más transparencia.
+             <div class="col-sm-12">
+               <p class="h3 GraphikBold ColorGris">NUEVAS</p> 
+               <p class="h3 GraphikBold subirAside">INVERSIONES</p>
 
-           </p>
-           
-        </div>
+               <p class="prueba Graphik-Regular TextoAside">
+                A través de servicios especializados se promueven las ventajas competitivas del estado de Hidalgo respecto a la ubicación geográfica y la mano de obra especializada, lo que posibilita la generación de cadenas de valor y el ofrecimiento de incentivos en materia de regulación que facilitan la instalación de empresas en menos tiempo y con más transparencia.
+
+               </p>
+
+            </div>
         
         
          </div>
@@ -113,6 +248,27 @@
 </div>
 <br>
    <br>
+    
+    
+    
+<div class="stepwizard">
+    <div class="stepwizard-row">
+        <div class="stepwizard-step">
+            <button type="button" class="btn btn-default btn-circle">1</button>
+            <p>Cart</p>
+        </div>
+        <div class="stepwizard-step">
+            <button type="button" class="btn btn-primary btn-circle">2</button>
+            <p>Shipping</p>
+        </div>
+        <div class="stepwizard-step">
+            <button type="button" class="btn btn-default btn-circle" disabled="disabled">3</button>
+            <p>Payment</p>
+        </div> 
+    </div>
+</div>
+    
+
     
     
      <!--      
