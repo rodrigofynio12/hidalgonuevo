@@ -9,30 +9,34 @@
 
     <link rel="stylesheet" href="assets/css/_main.css">
     <link src="assets/fonts/OleoScript-Regular.ttf">
-    <link rel="stylesheet" href="Assets/css/slidecaorousel.css">
+    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Semibold.otf">
+    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Regular.otf">
+    
+    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Bold.otf">
     
   </head>
   
-
   <body ng-controller="ControladorPrincipal" >
     <div class="ContenedorMaster">
       <div class="ContenedorMenuHamburguesa visible-xs">
         <div class="hamburguesa"></div>
       </div>
-
-      <div class="menu noaparecer">
-        <div class="nav-texto "><a href="#home">INICIO</a></div>
-        <div class="nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
-        <div class="nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
-        <div class="nav-texto"><a href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
-        <div class="nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
-        <div class="nav-texto"><a href="#VentanillaUnica">VENTANILLA UNICA</a></div>
+  
+      <div class="menu noaparecer" >
+        <div class=" nav-texto " ><a href="#home">INICIO</a></div>
+        <div class=" nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
+        <div class=" nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
+        <div class=" nav-texto"><a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
+        <div class=" nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
+        <div class=" nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a></div>
       </div>
+
+
 
       <navbar-component></navbar-component>
 
       <!--////////////////////////////////////////////////////////////////////////-->
-        <div ng-view></div>
+      <div ng-view></div>
       <!--////////////////////////////////////////////////////////////////////////-->
 
       <footer-component></footer-component>
