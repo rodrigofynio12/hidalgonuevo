@@ -1,98 +1,128 @@
 /* Portrait tablet - query */
 
-    @media (min-width: 768px) and (max-width: 956px) {
+    @media (min-width: 768px) and (max-width: 960px) {
     
+   
+      
+        .noaparecer{
+          display: none;
+        }
+        
+          .btn-link>b{
+              position: relative;
+            font-size: 9px;
+              left: -10px;
+        }
+        
         body{
             background-color:darkorange;
         }
   
  
-          
-          .container-nav>div>div>a{
+            
+          .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
+        }
+        
+       .container-nav>div>div>a{
             font-size: 8px;
         }
+
+      
+      
         
-         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 30px;
+             width:30px;
+        }
+        
+        .footer{
+         height: 55px;   
+        }
+        
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
             display: inline;
-            font-size: 18px;
+            font-size: 14px;
         }
         
-        
-        /* imagen investihidalgo */
-        .imagen-header{
-            transform: scale(5);
-            left: 0%;
-        }
-        
-        /* final imagen investihidalgo */
-        
-        /* Parte del input buscar y contacto */
-        .header-derecho{
-            position: relative;
-            top: 70px;
-        }
-        
-        
-        .contenedorbuscarlogo{
-        top: 10px;  
+        /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+             height: 25px;
+                width:25px;
             
         }
         
-        .contenedorbuscarusuario{
-            top: 48px;
-            left: -8%;
-        }
         
-        .iconobuscar{
-            top:40px;
-        }
-        /* fin input*/
-        .footer2-centro-direccion{
-            position: relative;
-            top: 40px;
-        }
-        
-      
-          .subir-vista{
-            position: relative;
-            top: 100px;
-        }
+            
         
         
-        
-      
-        .contenedor-slide-nuevo{
-                 position: relative;
-                 top: -10vh;
-        }
-        
-        .footer2-logo-googlemaps{
-         top:20px;   
-        }
-              
-    .icono-footer>img{
-        position: relative;
-        height: 20px;
-        width: 20px;
-        top: -30px; 
-left: 20%;
-    }
-       
-        
-       /*TEXTO CASOS DE EXITO*/ .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-            position: relative;
-            display: block;
-            font-size: 12px;
-            top: -28px;
-           left: 8%;
-           
-        }
-        
-        
-  
-        
+        /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 15px;
+                          
+                        } 
+          
           
         
         
-    
+        
+/* Lineas Verticales*/
+    .linea-vertical{
+        top: 0px;
     }
+        
+        
+        
+        
+    }
+
+
+
+
+
+
+    @media (min-width: 768px) and (max-width: 824px) {
+        
+        
+
+        .inputbuscar{
+            height: 23px;
+        }
+        .footer2-izquierdo{
+            position: relative;
+     
+            display: flex;
+           
+        }
+     
+           .icono-footer2{
+            display: block;
+            left:-20%;
+            
+        }
+    
+/* Lineas Verticales*/
+  
+        
+            .linea-vertical-der{
+       width: 2px;
+    }
+        
+        
+          .footer2-centro-direccion{
+       /*     top: 20px;  */
+            font-size: 10px;
+        }
+        
+        
+        
+        
+}

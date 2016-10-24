@@ -13,17 +13,17 @@
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Regular.otf">
     <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Bold.otf">
   
-  <link rel="stylesheet" href="Assets/css/slidenuevo.css">
   
   
+
   </head>
   
 
   <body ng-controller="ControladorPrincipal" >  
    
-           
+           <div class="texto-tamano"></div>
                
-<div class="ContenedorMaster">
+<div class="ContenedorMaster noaparece">
     <div class="ContenedorMenuHamburguesa visible-xs">
       <div class="hamburguesa"></div>
     </div>
@@ -41,13 +41,16 @@
 
 
 
-      <navbar-component></navbar-component>
+      <navbar-component class="subir-navbar"></navbar-component>
 
 <!--////////////////////////////////////////////////////////////////////////-->
+    <br>
 		<div class="subir-vista" ng-view></div>
+		
 <!--////////////////////////////////////////////////////////////////////////-->
 
-      <footer-component class="subir-contenedor-footer"></footer-component>
+      <footer-component class=""></footer-component>
+     
     </div>
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-route.js"></script>

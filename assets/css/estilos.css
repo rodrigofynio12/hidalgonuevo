@@ -1,4 +1,223 @@
 
+
+/*position relative*/
+.footer,
+.header-derecho,
+.imagen-header,
+.imagen-invest, 
+.inputbuscar,
+.iconobuscar-text,
+.iconousuario-text,
+.iconobuscar,
+.iconousuario,
+.icono-footer,
+.icono-footer>img,
+.icono-footer2,
+.icono-footer2>img,
+.casosdeexito,
+.suscripcionaboletines,
+.preguntasfrecuentes,
+.casosdeexito>p,
+.suscripcionaboletines>p,
+.preguntasfrecuentes>p,
+.footer2-logo-googlemaps,
+.footer2-logo-googlemaps-img, 
+.footer2-izquierdo,
+.footer2-derecho,
+.footer2-centro-direccion
+{
+    position: relative;
+}
+
+
+/* Generales*/
+
+   .container-nav{
+        width: 100%;
+    }
+
+
+
+   .container-footer
+    {
+        width: 100%;
+    }
+
+
+  
+ .imagen-header-principal{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+    }
+
+/*fin generales*/
+  
+
+
+/* Nav bar*/
+
+/* contenedor imagen invest*/
+    .imagen-header{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        top:-164px;
+        width:100%;
+        height:100px;
+        left: 5.4%;
+    }
+
+
+
+/*imagen invest*/
+
+    .imagen-invest{
+        width: 490px; 
+        height: 490px;
+    }
+
+
+
+
+
+
+  .header-derecho{
+        top: 100px;
+    }
+
+
+/* Input */
+    .inputbuscar{
+        background-color: rgba(216,216,216 ,1);
+        height: 30px;
+        width: 90%;
+        border: none;
+        left: 0px;
+        top: 4px;
+    }
+
+ 
+
+
+
+
+
+ 
+    /* Contenedor Buscar*/
+
+
+/* Compartido tamano de texto de los logos buscar y contacto*/
+.iconobuscar-text,.iconousuario-text{
+    
+     text-align: center;
+     font-family: ParaNav;
+     font-size: 11px;
+}
+
+
+
+.iconobuscar-text{
+    display: block;
+    top: -35px;
+    left: -15px;
+    
+}
+
+
+
+
+     .contenedorbuscarlogo{
+    left: -5%;
+        
+    }
+
+            /* icono buscar */
+                .iconobuscar{
+                    /*si funciona esto */
+                    width:25px;
+                    height:25px;
+                    
+                    
+                    font-size: 22px;
+                    text-align: center;
+                    color: rgba(0,45,64,1);
+
+                }
+/* Texto buscar*/
+
+
+ 
+    
+
+/* Buscar Usuario*/
+    .contenedorbuscarusuario
+    {
+        left: -4%;
+        top: -2px;
+    }  
+/* Texto buscar usuario*/
+
+/* Icono usuario o contacto*/
+
+   .iconousuario{
+    width: 25px;
+    height: 25px;
+    left: -10px;
+    text-align: center;
+    top:0px;
+    }
+
+
+
+/* Texto  contacto*/
+
+   .iconousuario-text
+    {
+        left: -20px;
+        top: 5px;
+    }
+/* final buscar usuario*/
+
+ 
+
+
+
+/* Lineas Verticales*/
+    .linea-vertical{
+        position: absolute;
+        top: -20px;
+        width: 2px;
+        height: 120px;
+        left: -8px;
+        background-color: rgba(178,178,178,1);
+    }
+   
+   
+    .linea-vertical-der{
+        position: absolute;
+        top: -30px;
+        width: 2px;
+        height: 120px;
+        left: -8px;
+        background-color: rgba(178,178,178,1);
+    }
+
+ .linea{
+        
+        height: 1px;
+        width: 100%;
+        background-color: rgba(109,109,109,1);
+        margin: auto;
+    }
+
+
+/* fINAL LINEAS */
+
+
+    /* Texto del menu de navegacion*/
     .nav-texto{
         font-size: 14px;
         height: 50px;
@@ -8,10 +227,12 @@
         justify-content: center;
         align-content: center;
         text-align: center;
-    font-family: ParaNav;
     }
 
-    .nav-texto > .btn-link{
+
+        /* */
+
+     .btn-link{
         cursor: pointer;
         cursor: hand;
         font-size: 12px;
@@ -25,267 +246,114 @@
         color: rgba(109,109,109,1);
     }
 
-    .btn-link:hover{
+ .btn-link:hover{
+     transition: .5s;
         text-decoration: none;
-    }
-
-    h2{
-        font-family:mediocurveada;
-        font-size:36px;
-    }
-    
-    .header-derecho{
-        position: relative;
-        top: 30px;
-    }
-
-    .linea{
-        
-        height: 1px;
-        width: 100%;
-        background-color: rgba(109,109,109,1);
-        margin: auto;
-    }
-        
-        
-        
-    .imagen-header-principal{
-
-            display: flex;
-            flex-direction: row;
-            align-content: center;
-            justify-content: center;
-    }
-
-
-    .imagen-header{
-        position: relative;
-        top:30px;
-        display: flex;
-        flex-direction: row;
-        align-content: center;
-        justify-content: center;
-        
-        width:100%;
-        height:100px;
-        left: 13%;
-        transform: scale(4.2);
-        
-    }
-
-
-    .imagen-invest{
-        width: 100%;        
-        height: 100%;
-    }
-
-    .container-nav{
-        width: 100%;
-    }
-
-    .inputbuscar{
-        position: relative;
-        top:60px;
-        background-color: rgba(216,216,216 ,1);
-        height: 30px;
-        width: 100%;
-    }
-
-    .contenedorbuscarlogo{
-        top: 40px;
-        transform: scale(.49);
-    left: -5%;
-        
-    }
-
-
-    .iconobuscar{
-        position: relative;
-        width: 100%;
-        height: 50px;
-        font-size: 35px;
-        text-align: center;
-        color: rgba(0,45,64,1);
-        
-    }
-
-
-    .iconobuscar-text
-    {
-        
-        position: relative;
-        text-align: center;
-        font-size: 20px;
-        top: 0px;
-        font-family: ParaNav
-    }
-    
-    .contenedorbuscarusuario
-    {
-        transform: scale(.7);
-        left: -6%;
-        top: 50px;
-
-    }    
-    
-   .iconousuario{
-    position: relative;
-    width: 30px;
-    height: 30px;
-    left: -10px;
-    text-align: center;
-    top:0px;
-    }
-
-
-    .iconousuario-text
-    {
-        
-        position: relative;
-        text-align: center;
-        top: 10px;
-        left: -20px;
-        font-family: ParaNav
-    }
-    
-    
-    .container-footer
-    {
-        width: 100%;
-    }
-    
-    .footer{
-     background-color: rgba(180,19,19,1);
-        
-        height: 70px;
-        
-    }
-    
-    .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
-        position: relative;
-        color: white;
-        text-align: center;
-        font-size: 20px;
-        top:7px;
-    }
-    
-    a{
-        color: black;   
-        
-    }
-    
-    a:hover{
-        text-decoration: none;
-         transition: .5s;
-         color:rgba(0,45,64,1);
+        color:rgba(0,45,64,1);
+     
          transform: scale(1.2);
-        
     }
 
 
-    .icono-footer{
-        position: relative;
-        left: -20px;
-        font-size: 40px;
-        top: 10px;
-        color: rgba(57,180,54,1);
-    }
 
-    .icono-footer>img{
-        position: relative;
-        height: 30px;
-        width: 30px;
-        top: -12px;  
-    }
 
-    .espacio{
-        height: 500px;
-    } 
+
+
+/*Final nav bar*/
+
+
+                    /*  Footer contenedor de logos (casos de exito) */
+
+                        .footer{
+                         background-color: rgba(180,19,19,1);
+                         height: 60px;
+                        }
+
+
+        /* Para mover el contenido de los 3 */
+                    .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
+                       
+                        color: white;
+                        text-align: center;
+                        font-size: 18px;
+                        top:10px;
+                    }
     
-    
-    
-    .container-footer2{
-        width: 100%;
-        height: 180px;
-    }
-    
-    
-    .icon-youtube
-    {
-        transform: rotate(180deg);
-        color:rgba(0,45,64,1);
-    }
-    
-      .icono-footer2{
-        position: relative;
-        left: -20px;
-        font-size: 40px;
-        top: 10px;
-        color:rgba(0,45,64,1);
+/*  Texto casos de exito */
+                .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+                       left: 10px;
+                    font-size: 13px;
+                        display: inline;
+                    }
+
+
+
+                    .icono-footer>img{
+
+                        width: 40px;
+                        height: 40px;
+                    }
+
+
           
-    }
-    
-    .icono-footer2>img{
-        position: relative;
-        width: 30px;
-        height: 30px;
-        top: -20px;
-    }
 
-    .footer2-centro-direccion >div{
-        text-align: center;
-        font-size: 11px;
-        font-family: Graphik-Regular;
-    } 
 
-    .footer2-logo-googlemaps{
-        position: relative;
-        text-align: center;
-       width: 100%;
-    }
-      .footer2-logo-googlemaps-img{
-        position: relative;
-        
-        width: 40px;
-        height: 40px;
-    }
-    
-    .linea-vertical{
-        position: absolute;
-        top: 20px;
-        width: 2px;
-        height: 120px;
-        left: -8px;
-        background-color: rgba(178,178,178,1);
-    }
+
+                            /*  contenedor  */
+                                 .container-footer2{
+                                    height: 180px;
+                                }
+
+
+                         /*  Contenedor redes sociales */
+                                  .icono-footer2{
+                                    left: -10%;
+                                    font-size: 40px;
+                                    color:rgba(0,45,64,1);
+
+                                }
+
+                        /*  Imagenes  redes sociales */
+                                .icono-footer2>img{
+                                    width: 30px;
+                                    height: 30px;
+                                    top: -20px;
+                                }
+
+
+
+
+
+                                  
+                      .footer2-izquierdo,.footer2-derecho,.footer2-centro-direccion{
+                       
+                        top: 50px;
+                      }
+
+
+                    /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 40px;
+                          
+                        } 
+                    /*  Final de Secretaria de desarrollo economico*/
+
+
+
+                        /* Logo Google*/
+                            .footer2-logo-googlemaps{
+                                text-align: center;
+                               width: 100%;
+                            }
+                              .footer2-logo-googlemaps-img{
+                                width: 40px;
+                                height: 40px;
+                            }
+                        /* Final logo google*/
 
    
-    .linea-vertical-der{
-        position: absolute;
-        top: -30px;
-        width: 2px;
-        height: 120px;
-        left: -8px;
-        background-color: rgba(178,178,178,1);
-    }
-    
-    .footer2-izquierdo{
-        position: relative;
-        top: 50px;
-    }
-      .footer2-derecho{
-        position: relative;
-        top: 50px;
-    }
 
-
-
-
-
-      
-    
-
-
-
-
-
+ 
