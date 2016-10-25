@@ -20,7 +20,7 @@
         width: 30px;
         top: -12px;  
     }
-          .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+          .casosdeexito>button>p,.suscripcionaboletinesa>button>p,.preguntasfrecuentes>button>p{
             display: inline;
             font-size: 18px;
         }
