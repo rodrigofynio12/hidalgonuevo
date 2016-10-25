@@ -1,24 +1,23 @@
 
-@media (min-width:1200px){
-  body{
 
-    }
 
-  .icono-footer>img{
-    position: relative;
-    height: 30px;
-    width: 30px;
-    top: -12px;
-    }
-  .casosdeexito>button>p,.suscripcionaboletinesa>button>p,.preguntasfrecuentes>button>p{
-    display: inline;
-    font-size: 18px;
-    }
-  .noaparecer{
-    display: none;
-    }
-  .contenedor-slide-nuevo{
-    position: relative;
-    top: 4vh;
-    }
-  }
+
+    @media (min-width:1200px){
+ 
+        
+        body{
+        
+        }
+          .noaparecer{
+          display: none;
+        }
+        
+          .contenedor-slide-nuevo{
+            position: relative;
+            top: 4vh;
+        } 
+        
+        
+        
+        
+}
