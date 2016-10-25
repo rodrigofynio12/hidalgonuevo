@@ -1,19 +1,128 @@
 /* Portrait tablet - query */
 
-    @media (min-width: 768px) and (max-width: 956px) {
+    @media (min-width: 768px) and (max-width: 960px) {
     
-        .container-nav>div>div>a{
-        font-size: 12px;
+   
+      
+        .noaparecer{
+          display: none;
         }
         
-    
-    
-        .footer{
-        height: 100px;
+          .btn-link>b{
+              position: relative;
+            font-size: 9px;
+              left: -10px;
         }
-    
+        
+        body{
+            background-color:darkorange;
+        }
+  
+ 
+            
+          .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
+        }
+        
+       .container-nav>div>div>a{
+            font-size: 8px;
+        }
+
+      
       
         
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 30px;
+             width:30px;
+        }
         
-    
+        .footer{
+         height: 55px;   
+        }
+        
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 14px;
+        }
+        
+        /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+             height: 25px;
+                width:25px;
+            
+        }
+        
+        
+            
+        
+        
+        /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 15px;
+                          
+                        } 
+          
+          
+        
+        
+        
+/* Lineas Verticales*/
+    .linea-vertical{
+        top: 0px;
     }
+        
+        
+        
+        
+    }
+
+
+
+
+
+
+    @media (min-width: 768px) and (max-width: 824px) {
+        
+        
+
+        .inputbuscar{
+            height: 23px;
+        }
+        .footer2-izquierdo{
+            position: relative;
+     
+            display: flex;
+           
+        }
+     
+           .icono-footer2{
+            display: block;
+            left:-20%;
+            
+        }
+    
+/* Lineas Verticales*/
+  
+        
+            .linea-vertical-der{
+       width: 2px;
+    }
+        
+        
+          .footer2-centro-direccion{
+       /*     top: 20px;  */
+            font-size: 10px;
+        }
+        
+        
+        
+        
+}

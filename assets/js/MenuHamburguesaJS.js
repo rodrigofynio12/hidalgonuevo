@@ -7,7 +7,6 @@
          
          
          
-         
          if($('.hamburguesa').hasClass('cruz'))
              {
                 $('.menu').css('top','0px');
@@ -23,4 +22,4 @@
          
      })
      
-    })
+    });

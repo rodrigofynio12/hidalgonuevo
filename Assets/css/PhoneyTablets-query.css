@@ -2,99 +2,135 @@
 
       @media (min-width: 401px) and (max-width: 767px) 
       {
+        
+          
+             /* noquitar */
+        /* Tamano del slideshow*/
+      .container-slide {
+          position: relative;
+      width: 90%;
+        }
+      /* fin no quitar*/
+          
+           /*imagen invest*/
+
+            .imagen-invest{
+                width: 400px; 
+                top: 0px;
+            }
+
           
           
           
-          
+       .ContenedorMenuHamburguesa{
+  
+        transform: scale(.25);
+                  left: -60px;
+                  top: -50px;
+              
+          }
           body{
               background-color: dodgerblue;
           }
+ 
           
-          .header-derecho{
-            position: relative;
-            top: 70px;
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
         }
         
-        
-        .contenedorbuscarlogo{
-        top: -45px;  
+       .container-nav>div>div>a{
+            font-size: 8px;
         }
-        
-        .contenedorbuscarusuario{
-            top: -8px;
-        }
-        
-            .imagen-header{
-            transform: scale(5);
-            left: 0%;
-        }
-        
-          
+
+      
       
         
-        .iconobuscar{
-            top:30px;
-            left:10%;
-        }
-       
-        
-        .iconobuscar-text {
-            left: 10%;
-            top: -15px;
+     
+        .footer{
+         height: 55px;   
         }
         
-        .iconousuario {
-            top: -5px;
-            left: -20%;
-            width: 30px;
+          
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 25px;
+             width:25px;
+             left: -10%;
+             top:-5px;
         }
+          
+          
         
-        .iconousuario-text {
-            left: -15px;
-            top: 4px;
-        }
-        
-        .inputbuscar {
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         display: block;
+            font-size: 10px;
             top: 0px;
-        }
-        
-        .menu>div>a:hover {
-            background-color: black;
-            color: white;
-        }
-      
-      /* casos de exito   Footer            */
-      .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
-            font-size: 19px;
-            left: 0px;
             text-align: center;
-            display: block;
+            left: -10%;
         }
         
-        .icono-footer>img{
-            width: 40px;
-            height: 40px;
-            left: 10px;
+        
+        
+          
+             /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+            position: relative;
+             height: 25px;
+                width:25px;
+            left:200%;
+             top: -35px;
         }
         
-        .footer2-izquierdo{
-            display: block;
-            height: 110px;
-        }
+          
+          
+          
         
-        .footer2-centro-direccion{
-            display: block;   
-        }
-      
-      
-         /*  Menu Hamburguesa */
-      
-  .ContenedorMenuHamburguesa{
-      display: none;
-        }
-            
-      
-         /*  Menu Hamburguesa */
-      
-      
+        /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 15px;
+                          
+                        } 
+          
+          
+       
+         
+  .iconobuscar-text{
+    display: block;
+    top: -40px;
+    left: -30%;
+    
+}
+             
+  
+          
+          
+}
+
+
+
+
+
+   @media (min-width: 414px) and (max-width: 560px) 
+   {
+    
+         
+       
     }
+
+
+
+   @media (min-width: 560px)  and (max-width: 767px) 
+   {
+    
+         
+       
+    }
+
+

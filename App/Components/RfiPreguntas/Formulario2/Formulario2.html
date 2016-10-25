@@ -1,0 +1,277 @@
+<style>
+    .ajustar-tamano{
+        width: 100%;
+        height: 50px;
+        background-color: red;
+    }
+	
+	
+	.contenedor-tablas{
+		overflow-x: auto;
+	}
+	
+	.input-tablas{
+		width: 60px;
+		height: 30px;
+		font-size: 12px;
+	    border-radius: 4px;
+		border-style: solid;
+		border-width: 1px;
+	}
+
+</style>
+
+
+
+
+<div class="container container-formulario">
+    <div class="row">
+      
+
+        <div class="col-xs-12 informacion-general ">
+        V.- Breve descripcion de productos a manufacturar / Brief description of products to be manufactured
+        </div>
+		  <br/>&nbsp;
+        
+        <form>
+        
+            <div class="form-group col-xs-12 ">
+
+                <label for="Productodescripcion" class="text-left">
+                    Producto / Product
+                </label>
+
+                <textarea class="form-control" rows="3" name="Productodescripcion" id="Productodescripcion">
+                    
+                </textarea>
+                
+            </div>
+
+           
+            <div class="form-group col-xs-12 ">
+
+                <label for="produccionanualdescripcion" class="text-left">
+                    Producción anual / Annual production
+                </label>
+                
+                <textarea class="form-control" rows="3" name="produccionanualdescripcion" id="produccionanualdescripcion"></textarea>
+                
+            </div>
+                 
+                 
+
+            <div class="form-group col-xs-12 ">
+
+                <label for="destinodescripcion" class="text-left">
+                    Destino de los productos / Destination of the products
+                </label>
+                
+                <textarea class="form-control" id="destinodescripcion" contenteditable="false" rows="3" name="destinodescripcion">
+                </textarea>
+                
+                
+            </div>
+
+        </form>
+    </div>
+</div>  
+       
+      <br/>&nbsp;<br/>&nbsp;  
+          
+<div class="container container-formulario">
+    <div class="row">
+
+
+        <div class="col-xs-12 informacion-general ">
+            VI.- Breve descripcion de los principales insumos a utilizar / Brief description of main raw materials
+        </div>
+        <br/>&nbsp;  
+        <form>
+
+                <div class="form-group col-xs-12 ">
+
+                        <label for="insumosdescripcion" class="text-left">
+                                Insumos / Raw materials
+                        </label>
+                        
+                        <textarea class="form-control" rows="3" id="insumosdescripcion" name="insumosdescripcion">
+                        </textarea>
+                </div>
+
+
+                <div class="form-group col-xs-12 ">
+
+                        <label for="volumenanualdescripcion" class="text-left">
+                            Volumen anual / Annual volumens
+                        </label>
+                        
+                        <textarea class="form-control" id="volumenanualdescripcion" rows="3" name="volumenanualdescripcion">
+                        </textarea>
+                </div>
+
+                 <div class="form-group col-xs-12 ">
+
+                        <label for="origendescripcion" class="text-left">
+                            Origen / Origin
+                        </label>
+                        
+                        <textarea class="form-control" id="origendescripcion" contenteditable="false" rows="3" name="origendescripcion">
+                        </textarea>
+                </div>
+                
+         </form>
+    </div>  <!-- fin row -->
+</div>      <!-- fin container -->
+                           
+                  
+     
+       
+                 
+                           
+<div class=" container-nav container-formulario contenedor-tablas">
+   <div class="col-xs-12 informacion-general">
+            VII.- Desglose del monto de inversión por concepto y año / Investment breakdown by concept and annual performance
+        </div>
+        <br>&nbsp;
+        <form>
+
+
+
+<table class="table table-responsive">
+  <thead>
+    <tr>
+	  <th class="fuente-informacion-titulo">Concepto <br>Concept</th>
+      <th class="fuente-informacion-titulo">Año1<br>Year1</th>
+      <th class="fuente-informacion-titulo">Año2<br>Year2</th>
+      <th class="fuente-informacion-titulo">Año3<br>Year3</th>
+      <th class="fuente-informacion-titulo">Año4<br>Year4</th>
+      <th class="fuente-informacion-titulo">Año5<br>Year5</th>
+      <th class="fuente-informacion-titulo">&nbsp;<br>Total</th>
+	  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>
+      Terreno y edificio
+      <br>
+      Land and building
+      
+      </th>
+      <td>
+           <input type="number"  class="input-tablas"  id="terrenoyear1" name="terrenoyear1"  > 
+      </td>
+      <td>
+ 			<input type="number"  class="input-tablas"  id="terrenoyear2" name="terrenoyear2" > 
+      </td>
+      <td>
+      	<input type="number"  class="input-tablas"  id="terrenoyear3" name="terrenoyear3" > 
+      </td>
+      <td>
+    	<input type="number"  class="input-tablas"  id="terrenoyear4" name="terrenoyear4" > 
+      </td>
+      <td>
+     <input type="number"  class="input-tablas"  id="terrenoyear5" name="terrenoyear5" > 
+      </td>
+      <td>
+      <input type="number"  class="input-tablas"  id="Totalterrenoyear" name="Totalterrenoyear" > 
+      </td>
+    </tr>
+    <tr>
+      <th>
+      Transferencia tecnologia
+      <br>
+      Technology transfer
+      
+      </th>
+    
+      <td><input type="number" class="input-tablas" id="Transferencia1" name="Transferencia1"></td>
+      <td><input type="number" class="input-tablas" id="Transferencia2" name="Transferencia2"></td>
+      <td><input type="number" class="input-tablas" id="Transferencia3" name="Transferencia3"></td>
+      <td><input type="number" class="input-tablas" id="Transferencia4" name="Transferencia4"></td>
+      <td><input type="number" class="input-tablas" id="Transferencia5" name="Transferencia5"></td>
+      <td><input type="number" class="input-tablas" id="TotalTransferencia" name="TotalTransferencia"></td>
+      
+    </tr>
+    <tr>
+      <th>
+      	Maquinaria y equipo
+      	<br>
+      	Machinery and equipment
+      </th>
+      <td><input type="number" class="input-tablas" id="Maquinaria1" name="Maquinaria1"></td>
+      <td><input type="number" class="input-tablas" id="Maquinaria2" name="Maquinaria2"></td>
+      <td><input type="number" class="input-tablas" id="Maquinaria3" name="Maquinaria3"></td>
+      <td><input type="number" class="input-tablas" id="Maquinaria4" name="Maquinaria4"></td>
+      <td><input type="number" class="input-tablas" id="Maquinaria5" name="Maquinaria5"></td>
+      <td><input type="number" class="input-tablas" id="TotalMaquinaria" name="TotalMaquinaria"></td>
+      
+    </tr>
+    
+      <tr>
+      <th>
+      	Instalaciones
+      	<br>
+      	Facilities
+      </th>
+      
+      
+      <td><input type="number" class="input-tablas" id="Instalaciones1" name="Instalaciones1"></td>
+      <td><input type="number" class="input-tablas" id="Instalaciones2" name="Instalaciones2"></td>
+      <td><input type="number" class="input-tablas" id="Instalaciones3" name="Instalaciones3"></td>
+      <td><input type="number" class="input-tablas" id="Instalaciones4" name="Instalaciones4"></td>
+      <td><input type="number" class="input-tablas" id="Instalaciones5" name="Instalaciones5"></td>
+      <td><input type="number" class="input-tablas" id="TotalInstalaciones" name="TotalInstalaciones"></td>
+      
+    </tr>
+    
+    
+      <tr>
+      <th>
+      	Otros
+      	<br>
+      	Others
+      </th>
+      
+      
+      
+      <td><input type="number" class="input-tablas" id="OtrosConcepto1" name="OtrosConcepto1"></td>
+      <td><input type="number" class="input-tablas" id="OtrosConcepto2" name="OtrosConcepto2"></td>
+      <td><input type="number" class="input-tablas" id="OtrosConcepto3" name="OtrosConcepto3"></td>
+      <td><input type="number" class="input-tablas" id="OtrosConcepto4" name="OtrosConcepto4"></td>
+      <td><input type="number" class="input-tablas" id="OtrosConcepto5" name="OtrosConcepto5"></td>
+      <td><input type="number" class="input-tablas" id="TotalOtrosConcepto" name="TotalOtrosConcepto"></td>
+    </tr>
+    
+    
+       <tr>
+      <th>
+      	Total
+      	<br>
+      	&nbsp;
+      </th>
+      
+      
+      <td><input type="number" class="input-tablas" id="TotalConcepto1" name="TotalConcepto1"></td>
+      <td><input type="number" class="input-tablas" id="TotalConcepto2" name="TotalConcepto2"></td>
+      <td><input type="number" class="input-tablas" id="TotalConcepto3" name="TotalConcepto3"></td>
+      <td><input type="number" class="input-tablas" id="TotalConcepto4" name="TotalConcepto4"></td>
+      <td><input type="number" class="input-tablas" id="TotalConcepto5" name="TotalConcepto5"></td>
+      <td><input type="number" class="input-tablas" id="TotalTotalConcepto" name="TotalTotalConcepto"></td>
+    </tr>
+    
+    
+    
+    
+    
+	</form>
+  </tbody>
+</table>
+</div>
+
+
+                
+                                    
+                 
+                 
+                  
+          

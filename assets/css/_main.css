@@ -5,7 +5,6 @@
 @import "paraicono.css";
 @import "sweetalert.css";
 @import "estilos.css";
-@import "slidenuevo.css";
 @import "MenuHamburguesaIndex.css";
 @import "RFI.css";
 @import "fuentes.css";
@@ -15,8 +14,7 @@
 @import "PortraitTablet-query.css";
 @import "Default-query.css";
 @import "LargeDisplay-query.css";
-
-
+@import "StyleProgressBar.css";
 .acomodando{
     position: relative;
     left: 10%;
@@ -83,8 +81,6 @@
           border-color: black;
           border-style:ridge;
             
-          
-            
           }
           
 .ContenedorMaster{
@@ -94,20 +90,18 @@
 }
 
           
-       
-          
-          
         .nav-texto > .btn-link a {
           transition: 1s;
           
           position: relative;
           font-size: 18px;
           }
-        }
+        
+}
 
 
-      @media (min-width: 767px) {
-        .noaparecer{
-          display: none;
-          }
-        }
+
+
+
+
+     

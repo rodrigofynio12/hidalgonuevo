@@ -39,15 +39,25 @@ angularRoutingApp.config(function($routeProvider) {
 			templateUrl : 'app/components/RFI/RFI.html',
 			controller 	: 'Controlador-RFI'
 		})
+		.when('/step1', {
+			templateUrl : null,
+			controller 	: null
+		})
+		.when('/step2', {
+			templateUrl : null,
+			controller 	: null
+		})
+		.when('/step3', {
+			templateUrl : null,
+			controller 	: null
+		})
+		.when('/complete', {
+			templateUrl : null,
+			controller 	: null
+		})
 		.otherwise({
 			redirectTo: '/'
 		});
-    
-    
-    
-    
-    
-    
 });
         
         

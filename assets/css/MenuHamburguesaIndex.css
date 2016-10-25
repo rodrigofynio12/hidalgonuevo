@@ -26,7 +26,7 @@
     .ContenedorMenuHamburguesa:hover{
         
         transition: 1s;
-        background-color:  rgba(150,0,0,1);
+        background-color:darkcyan;
 }
     .hamburguesa{
         top:90px;

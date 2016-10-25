@@ -9,46 +9,50 @@
 
     <link rel="stylesheet" href="assets/css/_main.css">
     <link src="assets/fonts/OleoScript-Regular.ttf">
-    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Semibold.otf">
-    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Regular.otf">
-    <link rel="stylesheet" href="Assets/fonts/Graphik/Graphik-Bold.otf">
-  
-  <link rel="stylesheet" href="Assets/css/slidenuevo.css">
-  
-  
+    <link src="Assets/fonts/Graphik/Graphik-Semibold.otf">
+    <link src="Assets/fonts/Graphik/Graphik-Regular.otf">
+    <link src="Assets/fonts/Graphik/Graphik-Bold.otf">
   </head>
   
+
   <body ng-controller="ControladorPrincipal" >
-    <div class="ContenedorMaster">
+    <div class="texto-tamano"></div>
+    <div class="ContenedorMaster noaparece">
       <div class="ContenedorMenuHamburguesa visible-xs">
         <div class="hamburguesa"></div>
       </div>
-  
-      <div class="menu noaparecer" >
-        <div class=" nav-texto " ><a href="#home">INICIO</a></div>
-        <div class=" nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
-        <div class=" nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
-        <div class=" nav-texto"><a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
-        <div class=" nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
-        <div class=" nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a></div>
-      </div>
 
+    <div class="menu noaparecer" >
+      <div class=" nav-texto " ><a href="#home">INICIO</a></div>
+      <div class=" nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
+      <div class=" nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
+      <div class=" nav-texto"><a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
+      <div class=" nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
+      <div class=" nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a></div>
+    </div>
 
+<!--////////////////////////////////////////////////////////////////////////-->
+    <navbar-component class="subir-navbar"></navbar-component>
 
-      <navbar-component></navbar-component>
-
-      <!--////////////////////////////////////////////////////////////////////////-->
-      <div ng-view></div>
-      <!--////////////////////////////////////////////////////////////////////////-->
+      <br>
+      <div class="subir-vista anclavista" ng-view></div>
       
       <modal-component></modal-component>
-      <footer-component></footer-component>
 
+    <footer-component class=""></footer-component>
+<!--////////////////////////////////////////////////////////////////////////-->
+     
     </div>
+
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-route.js"></script>
     <script src="app/RoutingApp.js"></script>
     <script src="app/components/navbar/navbar_component.js"></script>
+    <script src="App/Components/RfiPreguntas/Formulario1/formulario1_component.js"></script>
+    <script src="App/Components/RfiPreguntas/Formulario2/formulario2_component.js"></script>
+    <script src="App/Components/RfiPreguntas/Formulario3/formulario3_component.js"></script>
+    <script src="App/Components/RfiPreguntas/Formulario4/formulario4_component.js"></script>
+    
     <script src="app/components/home/home.js"></script>
     <script src="app/components/modal/modal.js"></script>
     <script src="app/components/footer/footer_component.js"></script>
@@ -84,8 +88,7 @@
     <script>
     $(function() {
       $('#slides').slidesjs({
-        width: 940,
-        height: 328,
+        width: 940,        height: 328,
         play: {
           active: true,
           auto: true,

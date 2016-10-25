@@ -2,77 +2,221 @@
     @media (max-width: 400px) 
     
     {
+      /* noquitar */
+        /* Tamano del slideshow*/
+      .container-slide {
+          position: relative;
+      width: 85%;
+          height: 95px;
+        }
+      /* fin no quitar*/
+        
+        
+     /* No quitar*/   
+.ContenedorMaster{
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+}
+   
         body{
             background-color: pink;
         }
-        .container-nav>div>div>a{
+        
+          .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
+        }
+        
+        
+        /* contenedor imagen invest*/
+            .imagen-header{
+                top:-164px;
+                width:100%;
+                height:0px;
+            }
+
+
+
+        /*imagen invest*/
+
+            .imagen-invest{
+                width: 320px; 
+                height: 320px;
+                top: 60px;
+            }
+
+        
+        
+
+        
+       .container-nav>div>div>a{
             font-size: 8px;
         }
+
+      
+      /* Contenedor Contacto*/
         
-         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-            display: inline;
-            font-size: 18px;
-        }
+     .contenedorbuscarlogo{
+    left: -5%;
+    }
+
         
+            /* icono buscar */
+                .iconobuscar{
+                    /*si funciona esto */
+                    width:25px;
+                    height:25px;
+                    
+                    /* Para el tamano*/
+                    font-size: 16px;
+                    
+                
+                    text-align: center;
+                    color: rgba(0,45,64,1);
+left: -10px;
+                }
+  
+ /* Compartido tamano de texto de los logos buscar y contacto*/
+.iconobuscar-text,.iconousuario-text{
+    
+     text-align: center;
+     font-family: ParaNav;
+     font-size: 11px;
+}
+       
+  .iconobuscar-text{
+    display: block;
+    top: -40px;
+    left: -15px;
+    
+}
+      
         
-        /* imagen investihidalgo */
-        .imagen-header{
-            transform: scale(5);
-            left: 0%;
-        }
-        
-        /* final imagen investihidalgo */
-        
-        /* Parte del input buscar y contacto */
-        .header-derecho{
-            position: relative;
-            top: 70px;
-        }
-        
-        
-        .contenedorbuscarlogo{
-        top: 10px;  
-            
-        }
-        
-        .contenedorbuscarusuario{
-            top: 48px;
-            left: 6px;
-        }
-        
-        .iconobuscar{
-            top:40px;
-            left:16px;
-        }
-        /* fin input*/
-        
-        
-        .subir-contenedor{
-            top: 20px;
-        }
-        
-        .contenedor-slide-nuevo{
-                 position: relative;
-                 top: -10vh;
-        }
-        
-        
+/* Buscar Usuario*/
+    .contenedorbuscarusuario
+    {
+        left: -4%;
+        top: -2px;
+    }  
+/* Texto buscar usuario*/
+
+/* Icono usuario o contacto*/
+
+   .iconousuario{
+    width: 20px;
+    height: 20px;
+    left: -5px;
+    text-align: center;
+    top:-4px;
     }
 
 
 
-/* Phones pequeños */
+/* Texto  contacto*/
+
+   .iconousuario-text
+    {
+        left: -20px;
+        top: 5px;
+    }
+/* final buscar usuario*/
+
+ 
+        
+        
+ 
+
+       
+        
+        
+        .footer{
+         height: 65px;   
+            
+        }
+        
+        
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 20px;
+             width:20px;
+             display: block;
+             left: 35px;
+             top:-5px;
+        }
+        
+        
+        
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+          display: block;
+            font-size: 12px;
+            top: 0px;
+        }
+        
+        
+        
+        
+        /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+            position: relative;
+             height: 25px;
+                width:25px;
+            left: 300%;
+             top: -35px;
+        }
+        
+     
+       
+        
+        
+
+        
+        
+        
+        
+        
+           /* Para mover el contenido de los 3 */
+                    .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
+                       
+                        color: white;
+                        text-align: center;
+                        font-size: 18px;
+                        top:10px;
+                    }
+    
+/*  Texto casos de exito */
+                
+
+        
+        /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 15px;
+                          
+                        } 
+                    /*  Final de Secretaria de */
+        
+        
+        
+        
+        
+
+
+    }
+
+
+        
+        
+/* Phones Little */
 
     @media (max-width: 350px) {
     
-        .container-nav>div>div>a{
-            font-size: 8px;
-        }
-
-         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-            display: inline;
-            font-size: 15px;
-        }
+     
         
         
     }
