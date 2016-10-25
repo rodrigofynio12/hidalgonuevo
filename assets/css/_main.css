@@ -14,7 +14,7 @@
 @import "PortraitTablet-query.css";
 @import "Default-query.css";
 @import "LargeDisplay-query.css";
-
+@import "StyleProgressBar.css";
 .acomodando{
     position: relative;
     left: 10%;

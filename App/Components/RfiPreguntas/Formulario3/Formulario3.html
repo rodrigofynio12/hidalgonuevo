@@ -1,0 +1,359 @@
+
+<style>
+
+  .ajustar-tamano{
+        width: 100%;
+        height: 50px;
+        background-color: red;
+    }
+	
+	
+	.contenedor-tablas{
+		overflow-x: auto;
+	}
+	
+	.input-tablas{
+		width: 60px;
+		height: 30px;
+		font-size: 12px;
+	    border-radius: 4px;
+		border-style: solid;
+		border-width: 1px;
+	}
+	
+</style>
+                           
+<div class="container container-formulario">
+    <div class="row">
+
+
+        <div class="col-xs-12 informacion-general ">
+            VIII.- Desglose del monto de inversion por concepto y año / Investment breakdown of the estimated number of employees to generate per year 
+        </div>
+        <br>&nbsp;
+        <form>
+
+            <div class="col-xs-12 fuente-informacion-titulo ">
+                    <div><b>Número total de empleos / Total jobs to generate</b> </div>
+               
+            </div>
+                <br>&nbsp;       
+              <div class="col-xs-12 ">
+                   
+                    <div class="form-group col-xs-12 col-sm-4 ">
+
+
+                        <label for="EmpleosDirectos" class="text-left">
+                        Empleos directos / Direct jobs
+                        </label>
+
+                        <input type="text" class="form-control" id="EmpleosDirectos" placeholder="Empleos directos / Direct jobs" name="EmpleosDirectos">
+
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-4 ">
+
+
+                        <label for="EmpleosInDirectos" class="text-left">
+                        Empleos Indirectos / Indirect jobs
+                        </label>
+
+                        <input type="text" class="form-control" id="EmpleosInDirectos" placeholder="Empleos indirectos / Indirect jobs" name="EmpleosInDirectos">
+
+                    </div>
+                    <div class="form-group col-xs-12 col-sm-4 ">
+
+
+                        <label for="EmpleosTotales" class="text-left">
+                        Empleos Totales / Total jobs
+                        </label>
+
+                        <input type="text" class="form-control" id="EmpleosTotales" placeholder="EmpleosTotales / Direct jobs" name="EmpleosTotales">
+
+                    </div>
+
+                </div>
+                 
+                     
+                                                                                     
+        </form>  
+               
+     </div>
+</div>                                                                                                 
+
+
+<br><br>
+
+
+<div class="container container-nav container-formulario contenedor-tablas">
+    <div class="row">
+
+
+        <div class="col-xs-12 fuente-informacion-titulo">
+             IX. Desglose de los empleos directos / Breakdown of direct Jobs
+        </div>
+    <!-- Agregando espacios -->
+   <br>&nbsp;
+        <form>
+
+   
+<table class="table table-responsive">
+  <thead>
+    <tr>
+	  <th class="fuente-informacion-titulo">Tipo de empleo directo <br>Type of direct job</th>
+      <th class="fuente-informacion-titulo">Año1<br>Year1</th>
+      <th class="fuente-informacion-titulo">Año2<br>Year2</th>
+      <th class="fuente-informacion-titulo">Año3<br>Year3</th>
+      <th class="fuente-informacion-titulo">Año4<br>Year4</th>
+      <th class="fuente-informacion-titulo">Año5<br>Year5</th>
+      <th class="fuente-informacion-titulo">&nbsp;<br>Total</th>
+	  </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>
+      Operativo
+      <br>
+      Operative
+      
+      </th>
+      <td>
+           <input type="number"  class="input-tablas"  id="Operativo1" name="Operativo1" > 
+      </td>
+      <td>
+ 			<input type="number"  class="input-tablas"  id="Operativo2" name="Operativo2" > 
+      </td>
+      <td>
+      	<input type="number"  class="input-tablas"  id="Operativo3" name="Operativo3" > 
+      </td>
+      <td>
+    	<input type="number"  class="input-tablas"  id="Operativo4" name="Operativo4" > 
+      </td>
+      <td>
+     <input type="number"  class="input-tablas"  id="Operativo5" name="Operativo5" > 
+      </td>
+      <td>
+      <input type="number"  class="input-tablas"  id="TotalOperativo" name="TotalOperativo" > 
+      </td>
+    </tr>
+    <tr>
+      <th>
+      Administrativo
+      <br>
+      Administrative
+      
+      </th>
+    
+      <td><input type="number" class="input-tablas" id="Administrativo1" name="Administrativo1"></td>
+      <td><input type="number" class="input-tablas" id="Administrativo2" name="Administrativo2"></td>
+      <td><input type="number" class="input-tablas" id="Administrativo3" name="Administrativo3"></td>
+      <td><input type="number" class="input-tablas" id="Administrativo4" name="Administrativo4"></td>
+      <td><input type="number" class="input-tablas" id="Administrativo5" name="Administrativo5"></td>
+      <td><input type="number" class="input-tablas" id="TotalAdministrativo" name="TotalAdministrativo"></td>
+      
+    </tr>
+    <tr>
+      <th>
+      	Investigacion y desarrollo
+      	<br>
+      	Research and Development
+      </th>
+      <td><input type="number" class="input-tablas" id="Investigacionydesarrollo1" name="Investigacionydesarrollo1"></td>
+      <td><input type="number" class="input-tablas" id="Investigacionydesarrollo2" name="Investigacionydesarrollo2"></td>
+      <td><input type="number" class="input-tablas" id="Investigacionydesarrollo3" name="Investigacionydesarrollo3"></td>
+      <td><input type="number" class="input-tablas" id="Investigacionydesarrollo4" name="Investigacionydesarrollo4"></td>
+      <td><input type="number" class="input-tablas" id="Investigacionydesarrollo5" name="Investigacionydesarrollo5"></td>
+      <td><input type="number" class="input-tablas" id="TotalInvestigacionydesarrollo" name="TotalInvestigacionydesarrollo"></td>
+      
+    </tr>
+    
+       <tr>
+      <th>
+      	Total
+      	<br>
+      	&nbsp;
+      </th>
+      
+      
+      <td><input type="number" class="input-tablas" id=" TipodeEmpleodirecto1" name=" TipodeEmpleodirecto1"></td>
+      <td><input type="number" class="input-tablas" id=" TipodeEmpleodirecto2" name=" TipodeEmpleodirecto2"></td>
+      <td><input type="number" class="input-tablas" id=" TipodeEmpleodirecto3" name=" TipodeEmpleodirecto3"></td>
+      <td><input type="number" class="input-tablas" id=" TipodeEmpleodirecto4" name=" TipodeEmpleodirecto4"></td>
+      <td><input type="number" class="input-tablas" id=" TipodeEmpleodirecto5" name=" TipodeEmpleodirecto5"></td>
+      <td><input type="number" class="input-tablas" id="TotalTipodeEmpleodirecto" 
+      name="TotalTipodeEmpleodirecto"></td>
+    </tr>
+    
+    
+    
+    
+    
+	</form>
+  </tbody>
+</table>
+</div>
+
+</div>          
+                                 
+            
+            
+            
+            
+     
+       
+                 
+                           
+<div class=" container-nav container-formulario contenedor-tablas">
+   
+        
+        <form>
+
+
+
+<table class="table table-responsive">
+  <thead>
+    <tr>
+	  <th class="fuente-informacion-titulo">Nivel de estudios &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <br> Level of Studies</th>
+      <th class="fuente-informacion-titulo">Año1<br>Year1</th>
+      <th class="fuente-informacion-titulo">Año2<br>Year2</th>
+      <th class="fuente-informacion-titulo">Año3<br>Year3</th>
+      <th class="fuente-informacion-titulo">Año4<br>Year4</th>
+      <th class="fuente-informacion-titulo">Año5<br>Year5</th>
+      <th class="fuente-informacion-titulo">&nbsp;<br>Total</th>
+	  </tr>
+  </thead>
+  <tbody>
+    <tr>
+     <th>
+      Tecnico
+      <br>
+      Technician
+      
+      </th>
+      <td>
+           <input type="number"  class="input-tablas"  id="NivelSTecnico1" name="NivelSTecnico1" > 
+      </td>
+      <td>
+ 			<input type="number"  class="input-tablas"  id="NivelSTecnico2" name="NivelSTecnico2" > 
+      </td>
+      <td>
+      	<input type="number"  class="input-tablas"  id="NivelSTecnico3" name="NivelSTecnico3" > 
+      </td>
+      <td>
+    	<input type="number"  class="input-tablas"  id="NivelSTecnico4" name="NivelSTecnico4" > 
+      </td>
+      <td>
+     <input type="number"  class="input-tablas"  id="NivelSTecnico5" name="NivelSTecnico5" > 
+      </td>
+      <td>
+      <input type="number"  class="input-tablas"  id="TotalNivelSTecnico" name="TotalNivelSTecnico" > 
+      </td>
+    </tr>
+    
+    
+    <tr>
+      <th>
+      
+      Licenciatura
+      <br>
+      Bachelor's degree
+      
+      </th>
+    
+      <td><input type="number" class="input-tablas" id="NivelSLic1" name="NivelSLic1"></td>
+      <td><input type="number" class="input-tablas" id="NivelSLic2" name="NivelSLic2"></td>
+      <td><input type="number" class="input-tablas" id="NivelSLic3" name="NivelSLic3"></td>
+      <td><input type="number" class="input-tablas" id="NivelSLic4" name="NivelSLic4"></td>
+      <td><input type="number" class="input-tablas" id="NivelSLic5" name="NivelSLic5"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelSLic" name="TotalNivelSLic"></td>
+      
+    </tr>
+    <tr>
+      <th>
+      
+      	Ingenieria
+      	<br>
+      	Engineer
+      </th>
+      <td><input type="number" class="input-tablas" id="NivelSIngenieria1" name="NivelSIngenieria1"></td>
+      <td><input type="number" class="input-tablas" id="NivelSIngenieria2" name="NivelSIngenieria2"></td>
+      <td><input type="number" class="input-tablas" id="NivelSIngenieria3" name="NivelSIngenieria3"></td>
+      <td><input type="number" class="input-tablas" id="NivelSIngenieria4" name="NivelSIngenieria4"></td>
+      <td><input type="number" class="input-tablas" id="NivelSIngenieria5" name="NivelSIngenieria5"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelSIngenieria" name="TotalNivelSIngenieria"></td>
+      
+    </tr>
+    
+      <tr>
+      <th>
+      	Posgrado
+      	<br>
+      	Postgraduate
+      </th>
+      
+      
+      <td><input type="number" class="input-tablas" id="NivelSPosgrado1" name="NivelSPosgrado1"></td>
+      <td><input type="number" class="input-tablas" id="NivelSPosgrado2" name="NivelSPosgrado2"></td>
+      <td><input type="number" class="input-tablas" id="NivelSPosgrado3" name="NivelSPosgrado3"></td>
+      <td><input type="number" class="input-tablas" id="NivelSPosgrado4" name="NivelSPosgrado4"></td>
+      <td><input type="number" class="input-tablas" id="NivelSPosgrado5" name="NivelSPosgrado5"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelSPosgrado" name="TotalNivelSPosgrado"></td>
+      
+    </tr>
+      
+       <tr>
+      <th>
+      	Total
+      	<br>
+      	&nbsp;
+      </th>
+      
+      
+      <td><input type="number" class="input-tablas" id="TotalNivelStudio1" name="TotalNivelStudio1"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelStudio2" name="TotalNivelStudio2"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelStudio3" name="TotalNivelStudio3"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelStudio4" name="TotalNivelStudio4"></td>
+      <td><input type="number" class="input-tablas" id="TotalNivelStudio5" name="TotalNivelStudio5"></td>
+      <td><input type="number" class="input-tablas" id="TotalTotalNivelStudio" name="TotalTotalNivelStudio"></td>
+    </tr>
+    
+    
+    
+    
+    
+	</form>
+  </tbody>
+</table>
+</div>
+
+
+                
+ <br>                                   
+                                                                                
+ 
+           
+     <div class="container container-formulario">
+    <div class="row">
+
+
+        <div class="col-xs-12 informacion-general ">
+             X. Caracteristicas económicas, sociales u otras adicionales destacadas del proyecto / Economic, social or any other additional project characteristics that are worth to highlight
+        </div>
+      <br><br>&nbsp;
+        <form>
+               <div class="form-group col-xs-12 ">
+
+                <label for="Productodescripcion" class="text-left">
+                   Caracteristicas destacadas del proyecto / Outstanding project characteristics
+                
+                </label>
+<br>&nbsp;
+                <textarea class="form-control" rows="3" name="Productodescripcion" id="Productodescripcion">
+                    
+                </textarea>
+                
+            </div>
+                        
+        </form>
+     </div>
+                                                                                                             
+    </div>                                                                                                                                                                                                                                                                                                                                                                                           
