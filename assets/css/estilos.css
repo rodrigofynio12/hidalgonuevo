@@ -280,10 +280,11 @@
                     }
     
 /*  Texto casos de exito */
-                .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
-                       left: 10px;
+                .casosdeexito> a p,.suscripcionaboletines> a p,.preguntasfrecuentes> a p{
+                    color:white;
+                    left: 10px;
                     font-size: 13px;
-                        display: inline;
+                    display: inline;
                     }
 
 
