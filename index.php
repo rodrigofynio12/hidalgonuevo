@@ -1,3 +1,8 @@
+<?php 
+  require_once("app/includes/connection.php");
+  ?>
+
+
 <!DOCTYPE html>
 <html ng-app='angularRoutingApp'>
   <head>
@@ -5,7 +10,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Inversión Hidalgo</title>
+    <title>Invest in Hidalgo</title>
 
     <link rel="stylesheet" href="assets/css/_main.css">
     <link src="assets/fonts/OleoScript-Regular.ttf">
@@ -47,15 +52,17 @@
     <script src="assets/js/angular.min.js"></script>
     <script src="assets/js/angular-route.js"></script>
     <script src="app/RoutingApp.js"></script>
+
     <script src="app/components/navbar/navbar_component.js"></script>
+    <script src="app/components/home/home.js"></script>
+    <script src="app/components/modal/modal.js"></script>
+    <script src="app/components/footer/footer_component.js"></script>
+    
     <script src="App/Components/RfiPreguntas/Formulario1/formulario1_component.js"></script>
     <script src="App/Components/RfiPreguntas/Formulario2/formulario2_component.js"></script>
     <script src="App/Components/RfiPreguntas/Formulario3/formulario3_component.js"></script>
     <script src="App/Components/RfiPreguntas/Formulario4/formulario4_component.js"></script>
     
-    <script src="app/components/home/home.js"></script>
-    <script src="app/components/modal/modal.js"></script>
-    <script src="app/components/footer/footer_component.js"></script>
     
 
     <script src="assets/js/jquery-2.1.4.js" type="text/javascript"></script>
