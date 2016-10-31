@@ -1,8 +1,3 @@
-<?php 
-  require_once("app/includes/connection.php");
-  ?>
-
-
 <!DOCTYPE html>
 <html ng-app='angularRoutingApp'>
   <head>
@@ -27,24 +22,112 @@
         <div class="hamburguesa"></div>
       </div>
 
-    <div class="menu noaparecer" >
-      <div class=" nav-texto " ><a href="#home">INICIO</a></div>
-      <div class=" nav-texto"><a href="#porquehidalgo">¿POR QUÉ HIDALGO?</a></div>
-      <div class=" nav-texto"><a href="#SectoresEstrategicos">SECTORES ESTRATEGICOS</a></div>
-      <div class=" nav-texto"><a  href="#InfraestructuraIndustrial">INFRAESTRUCTURA INDUSTRIAL</a></div>
-      <div class=" nav-texto"><a href="#AgenciaPromocion">AGENCIA DE PROMOCIÓN</a></div>
-      <div class=" nav-texto"> <a  href="#VentanillaUnica">VENTANILLA UNICA</a></div>
-    </div>
+      <div class="noaparecer" >
+        <div class="menu" id="accordion" role="tablist" aria-multiselectable="true">
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a  class="nav-texto cerrar" href="#home">INICIO</a>
+              </h4>
+            </div>
+          </div>
+          
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading" role="tab" id="heading2">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                  ¿POR QUÉ HIDALGO?
+                </a>
+              </h4>
+            </div>
+            <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+              <div class="list-group">
+                <div class="nav-texto cerrar"><a href="#porquehidalgo">Ubicación y logística</a></div>
+                <div class="nav-texto cerrar"><a href="#porquehidalgo">Calidad de vida</a></div>
+                <div class="nav-texto cerrar"><a href="#porquehidalgo">Cifras</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading" role="tab" id="heading3">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                  SECTORES ESTRATEGICOS
+                </a>
+              </h4>
+            </div>
+            <div id="collapse3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading3">
+              <div class="list-group">
+                <div class="nav-texto cerrar"><a href="#SectoresEstrategicos">Consolidados</a></div>
+                <div class="nav-texto cerrar"><a href="#SectoresEstrategicos">Prospectivos</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading" role="tab" id="heading4">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                  INFRAESTRUCTURA INDUSTRIAL
+                </a>
+              </h4>
+            </div>
+            <div id="collapse4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4">
+              <div class="list-group">
+                <div class="nav-texto cerrar"><a href="#InfraestructuraIndustrial">Servicios generales</a></div>
+                <div class="nav-texto cerrar"><a href="#InfraestructuraIndustrial">Parques industriales</a></div>
+                <div class="nav-texto cerrar"><a href="#InfraestructuraIndustrial">Proyectos de gran escala</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading" role="tab" id="heading5">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                  AGENCIA DE PROMOCIÓN
+                </a>
+              </h4>
+            </div>
+            <div id="collapse5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading5">
+              <div class="list-group">
+                <div class="nav-texto cerrar"><a href="#AgenciaPromocion">Asesoría especializada</a></div>
+                <div class="nav-texto cerrar"><a href="#AgenciaPromocion">Acompañamiento empresarial</a></div>
+                <div class="nav-texto cerrar"><a href="#AgenciaPromocion">Seguimiento y aftecare</a></div>
+                <div role="separator" class="divider"></div>
+                <div class="nav-texto cerrar"><a href="#AgenciaPromocion">Incentivos a la inversión</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="panel panel-default btn-nav-mobil">
+            <div class="panel-heading" role="tab" id="heading6">
+              <h4 class="panel-title">
+                <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                  VENTANILLA UNICA
+                </a>
+              </h4>
+            </div>
+            <div id="collapse6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading6">
+              <div class="list-group">
+                <div class="nav-texto cerrar"><a href="#VentanillaUnica">Proceso de inversión</a></div>
+                <div class="nav-texto cerrar"><a href="#RFI">RFI</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
 <!--////////////////////////////////////////////////////////////////////////-->
-    <navbar-component class="subir-navbar"></navbar-component>
+      <navbar-component class="subir-navbar"></navbar-component>
 
-      <br>
-      <div class="subir-vista anclavista" ng-view></div>
-      
-      <modal-component></modal-component>
+        <br>
+        <div class="subir-vista anclavista" ng-view></div>
+        
+        <modal-component></modal-component>
 
-    <footer-component class=""></footer-component>
+      <footer-component class=""></footer-component>
 <!--////////////////////////////////////////////////////////////////////////-->
      
     </div>
@@ -77,7 +160,7 @@
     <script src="app/components/AgenciaPromocion/AgenciaPromocion.js"></script>
     <script src="app/components/infraestructuraIndustrial/InfraestructuraIndustrial.js"></script>
     <script src="app/components/RFI/RFI.js"></script>
-    <script src="app/components/Usuario/Usuario.js"></script>
+    <script src="app/components/usuario/usuario.js"></script>
     <script src="Assets/js/jquery.slides.min.js"></script>
     <script>
         
