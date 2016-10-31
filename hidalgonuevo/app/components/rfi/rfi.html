@@ -1,0 +1,130 @@
+        
+       
+        <div class="container container-nav">
+            <div class="row">
+
+               <div class="col-xs-12">
+                <div class="text-center2 h4">Solicitud de informacion </div>
+
+                <div class="text-center2 h4">Requirement for information</div>
+                 </div>
+            </div>
+        </div>
+
+<br/>
+
+    
+
+  
+   
+   
+   
+
+    <div class="container container-nav">
+	<div class="row">
+		<section>
+        <div class="wizard">
+            <div class="wizard-inner">
+                <div ></div>
+                
+                <div class="progress">
+  <div class="linea-progressbar progress-bar progress-bar-success  active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100">
+    <span class="sr-only">45% Complete</span>
+  </div>
+</div>
+  
+				
+               
+                <ul class="nav nav-tabs" role="tablist">
+
+                    <li role="presentation" class="active">
+                        <a   href="#step1" data-toggle="tab" aria-controls="step1" role="tab" title="Paso1">
+                            <span class="round-tab">
+                                <i class="icon icon-file-text"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li role="presentation" class="disabled">
+                        <a  href="#step2" data-toggle="tab" aria-controls="step2" role="tab" title="Paso2">
+                            <span class="round-tab">
+                                <i class="icon icon-pencil"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li role="presentation" class="disabled">
+                        <a href="#step3" data-toggle="tab" aria-controls="step3" role="tab" title="Paso3">
+                            <span class="round-tab">
+                                <i class="icon icon-home"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                  
+                    
+                    <li role="presentation" class="disabled">
+                        <a href="#complete" data-toggle="tab" aria-controls="complete" role="tab" title="Creacion de Usuario y Contraseña">
+                            <span class="round-tab">
+                                <i class="icon icon-key"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+
+            <form role="form">
+                <div class="tab-content">
+                    <div class="tab-pane active" role="tabpanel" id="step1">
+                        
+                       <formulario1_component></formulario1_component> 
+                       
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-primary next-step agregar-ancho-navbar-30 " 
+                            ng-click="funcionsubiranimacion()">
+                                        Save and continue
+                            </button></li>
+                         
+                        </ul>
+                    </div>
+                    
+                    <div class="tab-pane BotonNext" role="tabpanel" id="step2">
+                       
+                        
+                <formulario2_component></formulario2_component>
+                        
+                        
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step" ng-click="funcionsubiranimacion()">Previous</button></li>
+                            
+                            <li><button type="button" class="agregar-ancho-navbar-60 btn btn-primary  next-step" ng-click="funcionsubiranimacion()" >Guardar y continuar</button></li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-pane" role="tabpanel" id="step3">
+                       
+                <formulario3_component></formulario3_component>
+                       
+                        <ul class="list-inline pull-right">
+                            <li><button type="button" class="btn btn-default prev-step" ng-click="funcionsubiranimacion()">Previous</button></li>
+                          
+                            <li><button type="button" class="btn btn-primary btn-info-full next-step agregar-ancho-navbar-100"
+                            ng-click="funcionsubiranimacion()" data-toggle="modal" data-target="#Registro"
+                            >Guardar y continuar</button></li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="tab-pane" role="tabpanel" id="complete">
+                      
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </form>
+        </div>
+    </section>
+   </div>
+</div>
+
+      

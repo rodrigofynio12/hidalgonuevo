@@ -1,0 +1,88 @@
+/* Default - query */
+
+
+    @media (min-width: 960px) and (max-width: 1199px) {
+    
+   /*     body{
+            background-color: darkseagreen;
+        }
+      
+		*/
+		.noaparecer{
+          display: none;
+        }
+        
+        /* usuario*/
+        
+         /* Secretaria de desarrollo economico*/
+        
+        
+        /*Nota:    Si se agrega esto se mueve la linea vertical solo se agrega un top 0*/
+                      .footer2-centro-direccion {
+                         
+                          top: 15px;
+                          
+                        } 
+        
+        /* Fin */
+        /* Lineas Verticales*/
+    .linea-vertical{
+        top: 0px;
+    }
+        
+        
+        .contenedor-slide-nuevo{
+            position: relative;
+            top: 20px;
+        }        
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
+        }
+        
+       .container-nav>div>div>a{
+            font-size: 8px;
+        }
+
+      
+      
+        
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 40px;
+             width:40px;
+        }
+        
+        .footer{
+                        
+         height: 55px;   
+        }
+        
+		
+		
+                      
+
+		 .footer2-izquierdo,.footer2-derecho,.footer2-centro-direccion{
+                       
+                        top: 50px;
+                      }
+
+		
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+            display: inline;
+            font-size: 14px;
+        }
+        
+        /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+             height: 25px;
+                width:25px;
+            
+        }
+        
+    
+        
+    }

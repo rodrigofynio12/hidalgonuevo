@@ -1,0 +1,236 @@
+<!DOcTYPE html>
+<html ng-app='angularRoutingApp'>
+  <headu
+    <meta http-equiv="X-Ua-compatible" content="IE=edge,chrome=1"> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta http-equiv="Pragma" content="no-cache">
+	<meta http-equiv="expires" content="0">
+    <title>Investin Hidalgo</title>
+
+      <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/_main.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Graphik-Semibold.otf">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Graphik-Regular.otf">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Graphik-Semibold.otf">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/Graphik-Thin.otf">
+ 	<link rel="stylesheet" href="assets/css/jquery.fancybox.css">
+	  
+  </head>
+  
+
+  <body ng-controller="ControladorPrincipal" >
+
+  
+
+	
+   
+   
+   
+    <div class="texto-tamano"></div>
+    <div class="ContenedorMaster noaparece">
+      <div class="ContenedorMenuHamburguesa visible-xs">
+        <div class="hamburguesa"></div>
+      </div>
+
+   
+   
+   
+    <div class="menu noaparecer" >
+    
+    
+     
+        
+     <span class="linea-vertical-menu"></span>
+      
+        
+        <div><a href="#home" class="subirmenu GraphikBold " ng-click="funcionsubiranimacion()">INICIO</a></div>
+		
+		 <div>
+          
+          <a href="#porquehidalgo" class="subirmenu GraphikBold" ng-click="funcionsubiranimacion()">¿ POR QUE HIDALGO ?</a>
+			 
+          
+           <div>
+           
+           <ul>
+           	<li>
+           
+           			<a href="#ubicacionylogistica" class="subirmenu GraphikBold" ng-click="funcionsubiranimacion()">
+           			UBICACION Y LOGISTICA
+           			</a>
+           
+				   <ul class="subsubmenu">
+						<li>
+							<a href="#conectividadcarreterayferroviaria" class="subirmenu GraphikBold" ng-click="funcionsubiranimacion()">CONECTIVIDAD CARRETERA Y FERROVIARIA
+							</a>
+						</li>
+
+						<li>
+
+						   <a href="#distanciaspuertos" class="subirmenu GraphikBold" ng-click="funcionsubiranimacion()">
+						   DISTANCIA A PUERTOS
+						   </a>
+						</li>
+				   </ul>
+
+          	
+          	
+           	</li>
+           
+          
+           </ul>
+           
+           </div>
+        
+        
+        </div>
+        
+           <div><a href="#sectoresestrategicos" class="subirmenu GraphikBold">SECTORES ESTRATEGICOS</a>
+           
+           
+           
+           
+           </div>
+           <div>
+           
+           <a href="#infraestructuraindustrial" class="subirmenu GraphikBold">INFRAESTRUCTURA INDUSTRIAL</a></div>
+		
+       
+        <div>
+         <a href="#agenciapromocion" class="subirmenu GraphikBold">AGENCIA DE PROMOCIÓNL</a>
+         
+         </div>
+		
+        <div>
+        <a href="#ventanillaunica" class="subirmenu GraphikBold">VENTANILLA ÚNICA</a>
+         
+           <div>
+           
+           <ul>
+           	<li>
+           
+           			<a href="#rfi" class="subirmenu GraphikBold" ng-click="funcionsubiranimacion()">
+           			RFI
+           			</a>
+           
+          	
+          	
+           	</li>
+           
+          
+           </ul>
+           
+           </div>
+		
+         
+         </div>
+		
+		
+    </div>
+    
+    
+    
+
+<!--////////////////////////////////////////////////////////////////////////-->
+    <navbar-component class="subir-navbar"></navbar-component>
+
+      <br >
+      <div class="subir-vista anclavista" ng-view></div>
+      
+      <modal-component></modal-component>
+<br>&nbsp;<br>
+    <footer-component></footer-component>
+<!--////////////////////////////////////////////////////////////////////////-->
+     
+    </div>
+
+    <script src="assets/js/angular.min.js"></script>
+    <script src="assets/js/angular-route.js"></script>
+    <script src="app/RoutingApp.js"></script>
+    <script src="app/components/navbar/navbar_component.js"></script>
+    
+    <script src="app/components/rfipreguntas/formulario1/formulario1_component.js"></script>
+    
+    <script src="app/components/rfipreguntas/formulario2/formulario2_component.js"></script>
+    
+    <script src="app/components/rfipreguntas/formulario3/formulario3_component.js"></script>
+    
+    <script src="app/components/rfipreguntas/formulario4/formulario4_component.js"></script>
+    
+    <script src="app/components/home/home.js"></script>
+    <script src="app/components/modal/modal.js"></script>
+    <script src="app/components/footer/footer_component.js"></script>
+    <script src="app/components/footer-UbicacionyLogistica/footer-UbicacionyLogistica.js"></script>
+    
+
+    <script src="assets/js/jquery-2.1.4.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>  
+    <script src="assets/js/sweetalert-dev.js"></script>
+    <script src="assets/js/menuhamburguesajs.js"></script>
+
+    
+    <script src="app/components/porquehidalgo/_porquehidalgo.js"></script>
+    <script src="app/components/ventanillaUnica/ventanillaUnica.js"></script>
+    <script src="app/components/sectoresestrategicos/sectoresestrategicos.js"></script>
+    <script src="app/components/agenciapromocion/agenciapromocion.js"></script>
+    <script src="app/components/infraestructuraindustrial/infraestructuraindustrial.js"></script>
+    
+    <script src="app/components/ejelogistico/ejelogistico.js"></script>
+    
+    
+    <script src="app/components/rfi/rfi.js"></script>
+    <script src="app/components/usuario/usuario.js"></script>
+    <script src="assets/js/jquery.slides.min.js"></script>
+    <script src="app/components/ubicacionylogistica/ubicacionylogistica.js"></script>
+    <script src="app/components/conectividadcarreteraferroviaria/conectividadcarreteraferroviaria.js"></script>
+    <script src="app/components/distanciaspuertos/distanciaspuertos.js"></script>
+    
+    <script src="assets/js/jquery.fancybox.js"></script>
+    
+    <script>
+        
+    $(document).on('ready',function()
+                  {
+        
+        var tam = $(document).width();
+        $('.texto-tamano').text(''+tam);
+        $('.texto-tamano').css('position','fixed');
+        
+    })  
+    </script>
+  
+  
+    <script>
+    $(function() {
+      $('#slides').slidesjs({
+        width: 940,        height: 328,
+        play: {
+          active: true,
+          auto: true,
+          interval: 4000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <script>
+
+	   $scope.funcionsubiranimacion = function()
+    {
+    
+$('html,body').animate({scrollTop: $(".anclavista").offset().top}, 1000);
+		
+
+		
+    }
+    
+	
+
+    
+	  </script>
+	  
+	 
+  </body>
+</html>

@@ -1,0 +1,575 @@
+
+
+/*position relative*/
+.footer,
+.header-derecho,
+.imagen-header,
+.imagen-invest, 
+.inputbuscar,
+.iconobuscar-text,
+.iconousuario-text,
+.iconobuscar,
+.iconousuario,
+.icono-footer,
+.icono-footer>img,
+.icono-footer2,
+.icono-footer2>img,
+.casosdeexito,
+.suscripcionaboletines,
+.preguntasfrecuentes,
+.casosdeexito>p,
+.suscripcionaboletines>p,
+.preguntasfrecuentes>p,
+.footer2-logo-googlemaps,
+.footer2-logo-googlemaps-img, 
+.footer2-izquierdo,
+.footer2-derecho,
+.footer2-centro-direccion
+{
+    position: relative;
+}
+
+
+/* Generales*/
+
+   .container-nav{
+        width: 100%;
+    }
+
+
+
+   .container-footer
+    {
+        width: 100%;
+    }
+
+
+  
+ .imagen-header-principal{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+    }
+
+/*fin generales*/
+  
+
+
+/* Nav bar*/
+
+/* contenedor imagen invest*/
+    .imagen-header{
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        top:-80px;
+        width:100%;
+        height:100px;
+        left: 5.4%;
+    }
+
+
+
+/*imagen invest*/
+
+    .imagen-invest{
+        width: 300px; 
+        height: 300px;
+    }
+
+
+
+
+
+
+  .header-derecho{
+        top: 100px;
+    }
+
+
+/* Input */
+    .inputbuscar{
+        background-color: rgba(216,216,216 ,1);
+        height: 30px;
+        width: 90%;
+        border: none;
+        left: 0px;
+        top: 4px;
+    }
+
+ 
+
+
+
+
+
+ 
+    /* Contenedor Buscar*/
+
+
+/* Compartido tamano de texto de los logos buscar y contacto*/
+.iconobuscar-text,.iconousuario-text{
+    
+     text-align: center;
+     font-family: ParaNav;
+     font-size: 11px;
+}
+
+
+
+.iconobuscar-text{
+    display: block;
+    top: -35px;
+    left: -40%;
+    
+}
+
+
+
+
+     .contenedorbuscarlogo{
+    left: -5%;
+        
+    }
+
+            /* icono buscar */
+                .iconobuscar{
+                    /*si funciona esto */
+                    width:25px;
+                    height:25px;
+                    
+                    
+                    font-size: 22px;
+                    text-align: center;
+                    color: rgba(0,45,64,1);
+
+                }
+/* Texto buscar*/
+
+
+ 
+    
+
+/* Buscar Usuario*/
+    .contenedorbuscarusuario
+    {
+        left: -4%;
+        top: -2px;
+    }  
+/* Texto buscar usuario*/
+
+/* Icono usuario o contacto*/
+
+   .iconousuario{
+    width: 25px;
+    height: 25px;
+    left: -10px;
+    text-align: center;
+    top:0px;
+    }
+
+
+
+/* Texto  contacto*/
+
+   .iconousuario-text
+    {
+        left: -20px;
+        top: 5px;
+    }
+/* final buscar usuario*/
+
+ 
+
+
+
+/* Lineas Verticales*/
+    .linea-vertical{
+        position: absolute;
+        top: -20px;
+        width: 2px;
+        height: 120px;
+        left: -8px;
+        background-color: rgba(178,178,178,1);
+    }
+   
+   
+    .linea-vertical-der{
+        position: absolute;
+        top: -30px;
+        width: 2px;
+        height: 120px;
+        left: -8px;
+        background-color: rgba(178,178,178,1);
+    }
+
+ .linea{
+        
+        height: 1px;
+        width: 100%;
+        background-color: rgba(109,109,109,1);
+        margin: auto;
+    }
+
+
+/* fINAL LINEAS */
+
+
+    /* Texto del menu de navegacion*/
+    .nav-texto{
+        font-size: 14px;
+        height: 50px;
+        display: flex;
+        top: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+    }
+
+
+        /* */
+
+     .btn-link{
+        cursor: pointer;
+        cursor: hand;
+        font-size: 12px;
+        height: 50px;
+        display: flex;
+        top: 10px;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        color: rgba(109,109,109,1);
+    }
+
+ .btn-link:hover{
+     transition: .5s;
+        text-decoration: none;
+        color:rgba(0,45,64,1);
+     
+         transform: scale(1.2);
+    }
+
+
+
+
+
+
+/*Final nav bar*/
+
+
+                    /*  Footer contenedor de logos (casos de exito) */
+
+                        .footer{
+                         background-color: rgba(180,19,19,1);
+                         height: 60px;
+                        }
+
+
+        /* Para mover el contenido de los 3 */
+                    .casosdeexito,.suscripcionaboletines,.preguntasfrecuentes{
+                       
+                        color: white;
+                        text-align: center;
+                        font-size: 18px;
+                        top:10px;
+                    }
+    
+/*  Texto casos de exito */
+                .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+                       left: 10px;
+                    font-size: 13px;
+                        display: inline;
+                    }
+
+ .casosdeexito>p>a,.suscripcionaboletines>p>a,.preguntasfrecuentes>p>a{
+                   color: white;
+                    }
+
+
+
+                 
+          
+
+
+
+                            /*  contenedor  */
+                                 .container-footer2{
+                                    height: 180px;
+                                }
+
+
+                         /*  Contenedor redes sociales */
+                                  .icono-footer2{
+                                    left: -10%;
+                                    font-size: 40px;
+                                    color:rgba(0,45,64,1);
+
+                                }
+
+                        /*  Imagenes  redes sociales */
+                                .icono-footer2>img{
+                                    width: 30px;
+                                    height: 30px;
+                                    top: -20px;
+                                }
+
+
+
+
+
+                                  
+                      .footer2-izquierdo,.footer2-derecho,.footer2-centro-direccion{
+                       
+                        top: 50px;
+                      }
+
+
+                    /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                            text-align: center;
+                            font-size: 11px;
+                            font-family: Graphik-Regular;
+                          top: 40px;
+                          
+                        } 
+                    /*  Final de Secretaria de desarrollo economico*/
+
+
+                        /* Logo Google*/
+                            .footer2-logo-googlemaps{
+                                text-align: center;
+                               width: 100%;
+                            }
+                              .footer2-logo-googlemaps-img{
+                                width: 40px;
+                                height: 40px;
+                            }
+                        /* Final logo google*/
+
+   
+
+
+
+/*SlideShow*/
+
+
+
+
+
+	
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:5px;
+    }
+
+    a.slidesjs-next,
+    a.slidesjs-previous,
+    a.slidesjs-play,
+    a.slidesjs-stop {
+      background-image: url(../../assets/images/btns-next-prev.png);
+      background-repeat: no-repeat;
+      display:block;
+      width:12px;
+      height:18px;
+      overflow: hidden;
+      text-indent: -9999px;
+      float: left;
+      margin-right:5px;
+    }
+
+    a.slidesjs-next {
+      margin-right:10px;
+      background-position: -12px 0;
+    }
+
+    a:hover.slidesjs-next {
+      background-position: -12px -18px;
+    }
+
+    a.slidesjs-previous {
+      background-position: 0 0;
+    }
+
+    a:hover.slidesjs-previous {
+      background-position: 0 -18px;
+    }
+
+    a.slidesjs-play {
+      width:15px;
+      background-position: -25px 0;
+    }
+
+    a:hover.slidesjs-play {
+      background-position: -25px -18px;
+    }
+
+    a.slidesjs-stop {
+      width:18px;
+      background-position: -41px 0;
+    }
+
+    a:hover.slidesjs-stop {
+      background-position: -41px -18px;
+    }
+
+    .slidesjs-pagination {
+      margin: 7px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image: url(../../assets/images/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+
+
+
+    #slides {
+      display: none
+    }
+
+    .container-slide {
+      margin: 0 auto;
+    }
+
+
+
+
+
+.slideDown{				
+
+	
+	animation-name: slideDown;
+
+	animation-duration: 1.5s;	
+
+	animation-timing-function: ease;		
+
+	visibility: visible !important;		
+	
+	
+	
+}
+
+@keyframes slideDown {
+	0% {
+		transform: translateY(-100%);
+	}
+	50%{
+		transform: translateY(8%);
+	}
+	65%{
+		transform: translateY(-4%);
+	}
+	80%{
+		transform: translateY(4%);
+	}
+	95%{
+		transform: translateY(-2%);
+	}			
+	100% {
+		transform: translateY(0%);
+	}		
+}
+
+@-webkit-keyframes slideDown {
+	0% {
+		-webkit-transform: translateY(-100%);
+	}
+	50%{
+		-webkit-transform: translateY(8%);
+	}
+	65%{
+		-webkit-transform: translateY(-4%);
+	}
+	80%{
+		-webkit-transform: translateY(4%);
+	}
+	95%{
+		-webkit-transform: translateY(-2%);
+	}			
+	100% {
+		-webkit-transform: translateY(0%);
+	}	
+}
+
+/*
+==============================================
+slideUp
+==============================================
+*/
+
+
+
+    /* For tablets & smart phones */
+ 
+
+    /* For smartphones */
+
+    /* For smaller displays like laptops */
+    @media (min-width: 768px) and (max-width: 979px) {
+      .container-slide {
+          position: relative;
+       width:  100%;
+		  
+      }
+    }
+
+    /* For larger displays */
+    @media (min-width: 1200px) {
+      .container-slide {
+          position: relative;
+		  width: 100%;
+      }
+    }
+      
+
+
+
+
+
+ 

@@ -1,0 +1,220 @@
+@import "bootstrap.css";
+@import "bootstrap.min.css";
+@import "bootstrap-theme.min.css";
+@import "normalize.css";
+@import "paraicono.css";
+@import "sweetalert.css";
+@import "menuhamburguesaindex.css";
+@import "rfi.css";
+@import "fuentes.css";
+@import "_paraprogressbar.css";
+@import "phones-query.css";
+@import "phoneytablets-query.css";
+@import "portraittablet-query.css";
+@import "default-query.css";
+@import "largedisplay-query.css";
+@import "estilos.css";
+@import "ubicacionylogistica.css";
+@import "footer-ubicacionylogistica.css";
+@import "distanciaspuertos.css";
+@import "conectivadcarreteraferroviaria.css";
+@import "ejelogistico.css";
+
+.ColorNegro{
+	color: black;
+	
+}
+.linea-roja{
+	background-color: rgba(179,19,19,1);
+	height: 1px;
+}
+
+.linea-roja-chica-right{
+	background-color: rgba(179,19,19,1);
+	height: 1px;
+	float: right;
+	width: 10%;
+}
+
+.linea-roja-chica-left{
+	background-color: rgba(179,19,19,1);
+	height: 1px;
+	float:left;
+	width: 10%;
+}
+
+
+.acomodando{
+    position: relative;
+    left: 10%;
+}
+.subirAside{
+    position: relative;
+    top: -20px;
+}
+
+
+
+.TextoAside{
+    position: relative;
+ 
+	color: rgba(71,71,71,1);
+    font-size: 11pt;
+    top: -20px;
+	text-align: justify;
+}
+
+
+.TextoAsideVinculacion{
+    position: relative;
+    color: black;
+    font-size: 8.4pt;
+    top: -15px;
+}
+.ColorGris{
+    color: rgba(109,109,109,1);
+}
+ .prueba{
+        text-align: justify;
+    }
+
+
+    
+*{      padding: 0;
+      margin: 0;
+    
+      }
+
+
+    body{
+      overflow-x: hidden;
+      }
+
+
+.ContenedorMaster{
+    position: absolute;
+    width: 80%;
+    left: 10%;
+    overflow: hidden;
+}
+
+      @media (max-width: 767px) {
+        .menu{
+          transition: 1s;
+          position: fixed;
+          height:  100vh;
+		 width: 100vw;	
+          background-color: rgba(0,25,44,1);
+
+          display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+          z-index:99;
+          top: -120vh;
+          border-radius: 19px;
+          border-width: 4px;
+			 border-color: black;
+          border-style:solid;
+			  font-size: 14px;
+          }
+		  .menu>div
+		  {
+			  position: relative;
+			
+			  content:'';
+			  left: 28px;
+			  color: darkcyan;
+			  
+			  width: 90%;
+			  
+		  }
+		  	
+		  .menu>div>a{
+			  
+			  color: white;
+		  }
+		  .menu>div>div
+		  {
+			  position: relative;
+			  content:'';
+			  left: 30px;
+			   display: flex;
+          justify-content: space-around;
+          flex-direction: column;
+			  
+			  width: 70%;
+			  
+		  }
+		    .menu>div>div>a>
+		  {
+			  text-decoration: none;
+			  
+			  
+		  }
+		 
+		/*COLOR DEL MENU*/ .menu>div>div>a,div>div>ul>li>a,div>div>ul>li>ul>li>a{
+			  
+			  color:darkgrey;
+		  }
+		  
+		  
+		/*Selector de submenus*/
+		  div>div>ul>li>ul>li{
+			  position: relative;
+				  
+			  left: 20px;
+			  
+		  }
+		  	 
+		  
+		
+		  
+		  
+		  .menu>div:before{
+			  
+			  position: relative;
+			  width: 10px;
+			  height: 20px;
+			  content: '°';
+			  left:-8px;
+			  color: white;
+		  }
+		  
+		  
+		
+		  
+	  .linea-vertical-menu
+		  {
+			  position: 
+				  absolute;
+			  background-color:black;
+			  width: 4px;
+			  left: 20px;
+			  height: 90vh;
+			  
+			  box-shadow: 0px 0px  10px black;
+		  }
+		  
+		  
+.ContenedorMaster{
+    
+    width: 100%;
+    left: 0%;
+}
+
+          
+        .nav-texto > .btn-link a {
+          transition: 1s;
+          
+          position: relative;
+          font-size: 18px;
+          }
+        
+}
+
+
+
+
+
+
+     

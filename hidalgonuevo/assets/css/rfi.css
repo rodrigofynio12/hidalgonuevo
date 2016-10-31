@@ -1,0 +1,77 @@
+/* Los estilos de la barra de progreso se encuentran en el css 
+	llamado paraProgressbar*/
+
+
+.container-formulario{
+    width: 80%;
+}
+
+.icono-header-Solicitud{
+    font-size: 40px;
+    text-align: center;
+}
+
+.informacion-general{
+font-size: 15px;
+    font-family: GraphikBold;
+text-align: left;
+	color:dimgrey;
+}
+.fuente-informacion-titulo{
+font-size: 15px;
+    font-family: GraphikBold;
+text-align: left;
+color:rgba(0,45,64,1);	
+}
+
+.text-center2{
+    position: relative;
+text-align: center;
+color:rgba(0,45,64,1);
+width: 100%;
+    font-family: GraphikBold;
+ 
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+
+
+.container-formulario{
+    
+color:rgba(0,45,64,1);
+font-family: Graphik-Regular;
+    width: 100%;
+}
+
+input{
+    font-size: 20px;
+color:rgba(0,45,64,1);
+}
+
+
+.btnradio{
+    position: relative;
+    top:-5px;
+}
+.inversion{
+    position: relative;
+    top: -4px;
+}
+
+.frm-1-izq{
+    
+}
+
+
+.frm-1-der{
+    
+}

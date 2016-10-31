@@ -1,0 +1,196 @@
+/* Phone y Tablet - query */
+
+      @media (min-width: 401px) and (max-width: 767px) 
+      {
+        
+          
+             /* noquitar */
+        /* Tamano del slideshow*/
+      .container-slide {
+          position: relative;
+      width: 90%;
+        }
+      /* fin no quitar*/
+          
+           /*imagen invest*/
+
+.TxtBigEjeLogistica{
+	font-size: 35px !important ;
+	top: 40px !important;
+}
+
+.EjeLogistico-Texto{
+	top: -40px!important ;
+}
+
+		  
+.TxtMidEjeLogistico{
+		top:30px !important;
+	
+}
+		  
+		  
+            .imagen-invest{
+                width: 400px; 
+                top: 0px;
+            }
+
+          
+          
+          
+       .ContenedorMenuHamburguesa{
+  
+        transform: scale(.20);
+                  left: -80px;
+                  top: -78px;
+              
+          }
+        /*  body{
+              background-color: dodgerblue;
+          }
+ 
+        */  
+         .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         
+            display: inline;
+            font-size: 12px;
+        }
+        
+       .container-nav>div>div>a{
+            font-size: 8px;
+        }
+
+      
+      
+        
+     
+       /*Contenedor Casos de exito*/
+		    .footer{
+                        
+         height: 55px!important;
+        }
+        
+		
+        
+          
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 35px;
+             width:35px;
+             left: -10%;
+             top:-5px;
+        }
+          
+          
+        
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+         display: block;
+            font-size: 10px;
+            top: 0px;
+            text-align: center;
+            left: -10%;
+        }
+        
+         .footer2-izquierdo,.footer2-derecho,.footer2-centro-direccion{
+                       
+                        top: 50px;
+                      }
+
+        
+          
+             /* icono-footer2 redes sociales  */
+         .icono-footer2>img{
+            position: relative;
+             height: 25px;
+                width:25px;
+            left:200%;
+             top: -35px;
+        }
+        
+          
+          
+          
+        
+        /* Secretaria de desarrollo economico*/
+                      .footer2-centro-direccion {
+                         
+                          top: 15px;
+                          
+                        } 
+          
+          
+       
+         
+  .iconobuscar-text{
+    display: block;
+    top: -40px;
+    left: -30%;
+    
+}
+             
+  
+          
+          
+}
+
+
+
+
+
+   @media (min-width: 400px) and (max-width: 590px) 
+   {
+       
+          
+        /* Iconos de casos de exito*/
+     
+              
+		.footer{
+		 height: 88px!important;
+		}
+
+
+		
+        
+        /* Iconos de casos de exito*/
+     
+         .icono-footer>img{
+             height: 30px;
+             width:30px;
+             display: block;
+             left: 40%;
+             top:-5px;
+        }
+        
+	
+		
+        
+        
+        /* Textos casos de exito*/
+        .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+          display: block;
+            font-size: 10px;
+            top: -8px;
+        }
+           
+        
+        
+	   
+	   
+	   
+    }
+
+
+
+   @media (min-width: 591px)  and (max-width: 629px) 
+   {
+         .footer{
+	   height: 80px!important;
+	   }
+             
+         
+       
+    }
+
+

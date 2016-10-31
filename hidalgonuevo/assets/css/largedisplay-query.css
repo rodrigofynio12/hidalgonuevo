@@ -1,0 +1,181 @@
+
+
+    @media (min-width:1200px){
+ 
+        
+       
+          .noaparecer{
+          display: none;
+        }
+        
+          .contenedor-slide-nuevo{
+            position: relative;
+            top: 4vh;
+        } 
+        
+        
+           .icono-footer>img{
+
+                        width: 40px;
+                        height: 40px;
+                    }
+
+
+		
+                        .footer{
+                         background-color: rgba(180,19,19,1);
+                         height: 60px;
+                        }
+
+		.footer2-centro-direccion {
+		top: 40px;
+		}
+
+		 .footer2-izquierdo,.footer2-derecho,.footer2-centro-direccion{
+                       
+                        top: 50px;
+                      }
+
+        
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media (min-width:2200px){
+ 
+		.imagen-invest{
+			height: 1900px!important;
+			top: -850px!important;
+		}
+		.iconobuscar{
+			font-size: 40px!important;
+		}
+		.iconousuario{
+			width: 40px!important;
+			height: 40px!important;
+		}
+		.icon{
+			font-size: 40px!important;
+		}
+		.linea{
+			position: relative;
+			top: -19px!important;
+		height: 4px!important;
+		}
+		h1,h2,h3,h4,li,ul,ol,div,a,b,br,p{
+			top: 4px!important;
+			font-size: 30px !important;
+		}
+
+		div>*{
+			
+			font-size: 20px !important;
+		}
+		
+		.col-xs-12{
+			font-size: 20px !important;
+		}
+		
+		.inputbuscar{
+			font-size: 40px!important;
+			height: 80px!important;
+		}
+
+		.GraphikBold,.ColorGris{
+			font-size: 50px !important;
+		}
+		.GraphikRegular{
+	font-size: 30px !important;
+		}
+		
+		.icono-footer2{
+			top: 20px!important;
+			font-size: 40px!important;
+		}
+			.icono-footer>img{
+			width: 50px!important;
+				height: 50px!important;
+			
+		}
+		.footer2-logo-googlemaps-img {
+			width: 90px!important;
+			height: 90px!important;
+		}
+		.footer{
+		height: 100px!important;
+		}
+		
+			.icono-footer2>img{
+			width: 50px!important;
+				height: 50px!important;
+			
+		}
+		
+		      .casosdeexito>p,.suscripcionaboletines>p,.preguntasfrecuentes>p{
+                       
+                    font-size: 40px!important;
+                    }
+
+		
+		
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

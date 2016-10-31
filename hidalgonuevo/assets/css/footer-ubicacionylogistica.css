@@ -1,0 +1,91 @@
+
+.circulos-contenedor
+{
+	height: 50px;
+	width: 50px;
+	
+	
+}
+
+.circulo-imagen1{
+	position: relative;
+	top:30px;
+	height: 50px;
+	width: 50px;
+	background-image: url(../../assets/images/iconouno.png);
+	background-position: center;
+	background-size: 50px;
+	
+	background-repeat: no-repeat;
+	float: left;
+	z-index: 2;
+	
+	display: block;
+}
+
+
+.circulo-imagen2{
+	position: relative;
+	top:30px;
+	height: 50px;
+	width: 50px;
+	background-image: url(../../assets/images/iconodos.png);
+	background-position: center;
+	background-size: contain;
+	
+	float: left;
+	z-index: 2;
+	
+}
+
+
+
+.circulo-imagen3{
+	position: relative;
+	top:30px;
+	height: 50px;
+	width: 50px;
+	background-image: url(../../assets/images/iconotres.png);
+	background-position: center;
+	background-size: contain;
+	
+	
+	float: left;
+	z-index: 2;
+
+	
+}
+
+
+
+.circulo-imagen1:hover,.circulo-imagen2:hover,.circulo-imagen3:hover{
+	transition: .5s;
+	box-shadow: 0px 0px 6px black,0px 0px 8px black;
+	border-radius: 500px;
+}
+.circulo-imagen1:active,.circulo-imagen2:active,.circulo-imagen3:active{
+	width: 80px;
+	height: 80px;
+	
+}
+.Con-Texto-ConectividadCarretera{
+position:relative;
+	left: 20px;
+	top: 35px;
+}
+
+.Primer-Text-Circulo{
+	font-size: 11pt;
+}
+
+
+.Segundo-Text-Circulo{
+	font-size: 12pt;
+	color: black;
+	
+}
+
+
+.Ejelogistico{
+	display: inline;
+}

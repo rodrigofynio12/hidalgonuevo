@@ -1,0 +1,33 @@
+.Contenedor-Dist-izq,.Contenedor-Dist-der{
+	position: relative;
+	text-align: justify;
+}
+
+
+
+
+.TxtMidDistanciasPuertos{
+	display: block;
+	font-size: 20px;
+	top: 14px;
+	display: inline;
+	color: rgba(71,71,71,1);
+	
+	
+}
+
+.TxtBigDistanciasPuertos {
+
+	font-family: GraphikThin;
+	font-size: 65px;
+	color: rgba(233, 233, 233, 1);
+}
+
+
+.Cont-DistanciasPuertos {
+	left: 20px;
+}
+
+.Contenedor-izq-text-Distancias{
+	
+}
